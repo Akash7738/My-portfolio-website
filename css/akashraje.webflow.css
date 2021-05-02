@@ -1,0 +1,10182 @@
+.w-layout-grid {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-columns: 1fr;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
+}
+
+.about {
+  padding-bottom: 20px;
+  -webkit-transition: all 250ms ease;
+  transition: all 250ms ease;
+  font-family: 'Avenirltstd roman', sans-serif;
+  color: #ababab;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.about:hover {
+  border-bottom: 3px none #000;
+  color: #000;
+}
+
+.about:focus {
+  border-bottom: 3px none #000;
+  color: #000;
+}
+
+.about.w--current {
+  color: #000;
+}
+
+.work {
+  margin-right: 0px;
+  padding-bottom: 20px;
+  -webkit-transition: all 250ms ease;
+  transition: all 250ms ease;
+  font-family: 'Avenirltstd roman', sans-serif;
+  color: #ababab;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.work:hover {
+  border-bottom: 0px none #000;
+  color: #000;
+}
+
+.work:focus {
+  border-bottom: 0px none #000;
+  color: #000;
+}
+
+.work.w--current {
+  border-bottom: 3px none #000;
+  color: #000;
+}
+
+.work.w--current:hover {
+  border-bottom-style: none;
+}
+
+.work.w--current:focus {
+  border-bottom-style: none;
+}
+
+.resume {
+  padding-bottom: 20px;
+  -webkit-transition: all 250ms ease;
+  transition: all 250ms ease;
+  font-family: 'Avenirltstd roman', sans-serif;
+  color: #ababab;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.resume:hover {
+  border-bottom: 3px none #000;
+  color: #000;
+}
+
+.resume:focus {
+  border-bottom: 3px none #000;
+  color: #000;
+}
+
+.project {
+  display: inline-block;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding: 20px;
+  font-family: Montserrat, sans-serif;
+  font-size: 24px;
+}
+
+.navbar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 9999;
+  margin-bottom: 60px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  background-color: hsla(0, 0%, 98%, 0.95);
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+}
+
+.body {
+  background-color: #fafafa;
+  font-family: Montserrat, sans-serif;
+}
+
+.home {
+  display: inline-block;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.nav-menu {
+  display: inline-block;
+}
+
+.nav_block {
+  max-width: none;
+  margin: 10px 50px;
+}
+
+.mealmate_v01 {
+  margin-top: 0px;
+}
+
+.mealmate_v02 {
+  display: none;
+}
+
+.introduction {
+  display: inline-block;
+  margin-bottom: 82%;
+  color: #04b034;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.empathize {
+  margin-bottom: 82%;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.define {
+  margin-bottom: 82%;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.ideate {
+  margin-bottom: 82%;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.prototype {
+  margin-bottom: 82%;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.test {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.side_nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 20%;
+  z-index: 9999;
+  display: none;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.project_mealmate {
+  left: 29%;
+  display: inline-block;
+  margin-right: 0px;
+  margin-left: 0%;
+  color: #04af34;
+}
+
+.mealmate_logo {
+  max-width: 73%;
+  margin-bottom: 60px;
+}
+
+.mealmate_introduction {
+  max-width: 73%;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-family: 'Avenirltstd book', sans-serif;
+}
+
+.heading-2 {
+  margin-bottom: 20px;
+  font-family: Avenirltstd, sans-serif;
+  font-size: 28px;
+  font-weight: 900;
+  text-align: left;
+}
+
+.paragraph {
+  margin-bottom: 40px;
+  font-family: 'Avenirltstd book', sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: left;
+}
+
+.columns {
+  margin-bottom: 10px;
+}
+
+.paragraph-2 {
+  font-family: 'Avenirltstd book', sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.heading-4 {
+  margin-bottom: 10px;
+  font-family: Avenirltstd, sans-serif;
+  font-size: 18px;
+}
+
+.heading-5 {
+  margin-bottom: 10px;
+  font-family: Avenirltstd, sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.paragraph-4 {
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.column {
+  display: inline-block;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.column-2 {
+  display: inline-block;
+  margin-bottom: 0px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.line {
+  border-style: none none solid;
+  border-width: 0px 0px 1px 1px;
+  border-color: #04af34 #04af34 #04af34 #07b2bd;
+}
+
+.the_problem {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-family: 'Avenirltstd book', sans-serif;
+  text-align: center;
+}
+
+.the_goal {
+  max-width: 73%;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-family: 'Avenirltstd book', sans-serif;
+}
+
+.borderline {
+  max-width: 73%;
+  margin-bottom: 60px;
+}
+
+.design_thinking {
+  max-width: 73%;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  font-family: 'Avenirltstd book', sans-serif;
+}
+
+.approach {
+  margin-bottom: 40px;
+  font-family: Avenirltstd, sans-serif;
+  font-size: 28px;
+}
+
+.image-8 {
+  display: inline-block;
+}
+
+.image-9 {
+  display: none;
+}
+
+.image-10 {
+  display: none;
+}
+
+.empathize_process {
+  max-width: 73%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: 'Avenirltstd book', sans-serif;
+}
+
+.image-11 {
+  margin-bottom: 0px;
+}
+
+.quick_info {
+  margin-bottom: 40px;
+  font-size: 12px;
+}
+
+.questions {
+  margin-bottom: 10px;
+}
+
+.video {
+  margin-bottom: 10px;
+}
+
+.themantic-analysis {
+  max-width: 73%;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-family: 'Avenirltstd book', sans-serif;
+}
+
+.heading-2-v02 {
+  margin-bottom: 20px;
+  font-family: Avenirltstd, sans-serif;
+  font-size: 24px;
+}
+
+.demograpghics_and_goals {
+  margin-bottom: 10px;
+}
+
+.motivations_and_needs {
+  margin-bottom: 10px;
+}
+
+.pain_points {
+  margin-bottom: 40px;
+}
+
+.define_process {
+  max-width: 73%;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-family: 'Avenirltstd book', sans-serif;
+}
+
+.personas {
+  margin-bottom: 40px;
+}
+
+.image-15 {
+  margin-bottom: 20px;
+}
+
+.image-16 {
+  margin-bottom: 40px;
+}
+
+.image-17 {
+  display: none;
+}
+
+.image-18 {
+  display: none;
+}
+
+.image-19 {
+  max-width: 95%;
+}
+
+.image-20 {
+  max-width: 95%;
+}
+
+.image-21 {
+  max-width: 95%;
+}
+
+.my_role {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-family: Avenirltstd, sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.ideate_process {
+  max-width: 73%;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-family: 'Avenirltstd book', sans-serif;
+}
+
+.ideate_sketches {
+  margin-bottom: 10px;
+}
+
+.ideate_info {
+  margin-bottom: 40px;
+  font-family: 'Avenirltstd book', sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.ideate_sketches_v02 {
+  display: none;
+  margin-bottom: 10px;
+}
+
+.image-22 {
+  margin-bottom: 40px;
+}
+
+.image-23 {
+  margin-bottom: 40px;
+}
+
+.sitemap {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-family: Avenirltstd, sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.sitemap_info {
+  margin-bottom: 40px;
+  font-family: 'Avenirltstd book', sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.instruction {
+  display: inline-block;
+  margin-bottom: 60px;
+  font-family: 'Avenirltstd book', sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: left;
+}
+
+.intruction {
+  max-width: 100%;
+  text-align: center;
+}
+
+.sitemap_process {
+  max-width: 73%;
+  margin-bottom: 10px;
+}
+
+.prototype_process {
+  max-width: 73%;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  font-family: 'Avenirltstd book', sans-serif;
+}
+
+.prototype_sketches {
+  margin-bottom: 10px;
+}
+
+.prototype_sketches_v02 {
+  display: none;
+  margin-bottom: 10px;
+}
+
+.prototype_info {
+  margin-bottom: 40px;
+  font-family: 'Avenirltstd book', sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.image-25 {
+  max-width: 95%;
+}
+
+.image-26 {
+  max-width: 95%;
+}
+
+.image-27 {
+  max-width: 95%;
+}
+
+.image-28 {
+  margin-bottom: 60px;
+}
+
+.image-33 {
+  display: none;
+}
+
+.image-34 {
+  display: none;
+}
+
+.image-35 {
+  display: none;
+}
+
+.image-36 {
+  display: none;
+}
+
+.evalustion_process {
+  margin-bottom: 40px;
+}
+
+.evaluation_screens-v02 {
+  display: none;
+  margin-bottom: 40px;
+}
+
+.sketch_1 {
+  display: none;
+}
+
+.sketch_2 {
+  display: none;
+}
+
+.ideate_1 {
+  display: none;
+}
+
+.ideate_2 {
+  display: none;
+}
+
+.home_screen {
+  display: inline-block;
+}
+
+.tiffin_order_screen {
+  display: inline-block;
+}
+
+.usability_test {
+  display: none;
+  margin-bottom: 40px;
+}
+
+.location_screen {
+  display: inline-block;
+}
+
+.tiffin_schedule_screen {
+  display: inline-block;
+}
+
+.visual_design {
+  max-width: 73%;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-family: 'Avenirltstd book', sans-serif;
+}
+
+.visual_design_info {
+  margin-bottom: 40px;
+  font-family: 'Avenirltstd book', sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.image-41 {
+  margin-bottom: 10px;
+}
+
+.color_scheme {
+  display: none;
+}
+
+.logo_design {
+  display: none;
+}
+
+.font_and_color {
+  margin-bottom: 60px;
+}
+
+.font {
+  max-width: 65%;
+}
+
+.font_v02 {
+  display: none;
+  max-width: 65%;
+}
+
+.iconograpghy {
+  max-width: 73%;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-family: 'Avenirltstd book', sans-serif;
+}
+
+.icons {
+  max-width: 65%;
+  margin-bottom: 60px;
+}
+
+.image-44 {
+  display: none;
+}
+
+.hi-fidelity_prototype {
+  max-width: 73%;
+  margin-top: 0px;
+  margin-bottom: 60px;
+  font-family: 'Avenirltstd book', sans-serif;
+}
+
+.order_a_tiffin {
+  max-width: 73%;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  font-family: 'Avenirltstd book', sans-serif;
+}
+
+.order_a_tiffin_info {
+  margin-bottom: 20px;
+  font-family: 'Avenirltstd book', sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.find_a_cook {
+  max-width: 73%;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  font-family: 'Avenirltstd book', sans-serif;
+}
+
+.hire-a-cook_info {
+  margin-bottom: 20px;
+  font-family: 'Avenirltstd book', sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.subscribe_to_mealmate {
+  max-width: 73%;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  font-family: 'Avenirltstd book', sans-serif;
+}
+
+.subscription_info {
+  margin-bottom: 20px;
+  font-family: 'Avenirltstd book', sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.my_profile_options {
+  max-width: 73%;
+  margin-top: 0px;
+  margin-bottom: 60px;
+  font-family: 'Avenirltstd book', sans-serif;
+}
+
+.learning_outcomes_info {
+  margin-bottom: 20px;
+  font-family: 'Avenirltstd book', sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.learning_outcomes_heading {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-family: Avenirltstd, sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.end {
+  margin-bottom: 20px;
+}
+
+.all_rights_reserved {
+  margin-bottom: 20px;
+  font-family: 'Avenirltstd book', sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.rights_reserved {
+  max-width: 100%;
+  margin-bottom: 60px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.project_link {
+  display: inline-block;
+  -webkit-transition: all 250ms ease;
+  transition: all 250ms ease;
+  font-family: 'Avenirltstd roman', sans-serif;
+  color: #ababab;
+  font-size: 24px;
+  text-align: left;
+  text-decoration: none;
+}
+
+.project_link:hover {
+  color: #000;
+}
+
+.project_link:focus {
+  color: #000;
+}
+
+.project_link.w--current {
+  font-family: Avenirltstd, sans-serif;
+  color: #000;
+}
+
+.project_link.w--current:visited {
+  color: #000;
+}
+
+.bottom_nav {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.footer_nav {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  grid-auto-flow: row;
+  grid-column-gap: 50px;
+  grid-row-gap: 35px;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto auto;
+  grid-template-rows: auto auto auto;
+}
+
+.iayss_logo {
+  margin-bottom: 60px;
+}
+
+.iayss_v02 {
+  display: none;
+}
+
+.iayss_introduction {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-family: 'Avenirltstd book', sans-serif;
+}
+
+.the_approach {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-family: 'Avenirltstd book', sans-serif;
+}
+
+.task_flow_v01 {
+  margin-bottom: 10px;
+  font-family: Avenirltstd, sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.task_flow_v02 {
+  margin-bottom: 10px;
+  font-family: Avenirltstd, sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.design_process {
+  margin-top: 0px;
+  margin-bottom: 40px;
+  font-family: 'Avenirltstd book', sans-serif;
+}
+
+.rouch_sketches {
+  margin-bottom: 10px;
+}
+
+.lofi_wireframes {
+  margin-bottom: 10px;
+}
+
+.image-47 {
+  margin-bottom: 10px;
+}
+
+.hi-fi_prototypes {
+  margin-top: 0px;
+  margin-bottom: 60px;
+  font-family: 'Avenirltstd book', sans-serif;
+}
+
+.border {
+  border-style: none none solid;
+  border-width: 0px 0px 1px;
+  border-color: #07b2bd;
+}
+
+.nda {
+  margin-bottom: 20px;
+  font-family: Avenirltstd, sans-serif;
+  color: #438bf8;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.product_owner {
+  max-width: 100%;
+  margin-bottom: 60px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.rizee_project_name {
+  display: inline-block;
+  margin-top: 0px;
+  font-family: 'Avenirltstd roman', sans-serif;
+  color: #438bf8;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.iayss_borderline {
+  display: block;
+  margin-bottom: 60px;
+}
+
+.copyright {
+  font-family: 'Avenirltstd book', sans-serif;
+}
+
+.text-block-4 {
+  font-family: Avenirltstd, sans-serif;
+  font-size: 24px;
+}
+
+.linkedin {
+  margin-top: 0px;
+  margin-right: 20px;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+  font-family: 'Avenirltstd book', sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.linkedin:hover {
+  color: #000;
+}
+
+.project_iayss {
+  left: 31%;
+}
+
+.name {
+  display: inline-block;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding: 20px;
+  font-family: Montserrat, sans-serif;
+  font-size: 24px;
+}
+
+.hmw_question_iayss {
+  max-width: 70%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-family: 'Avenirltstd book', sans-serif;
+}
+
+.span_1 {
+  display: inline;
+  color: #07b2bd;
+}
+
+.span_3 {
+  color: #07b2bd;
+}
+
+.span_2 {
+  display: inline;
+  color: #000;
+}
+
+.paragraph-6 {
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.paragraph-7 {
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.mealmate_project_name {
+  font-family: 'Avenirltstd roman', sans-serif;
+  font-size: 24px;
+}
+
+.hmw_mealmate {
+  display: block;
+  margin-bottom: 40px;
+  font-family: Avenirltstd, sans-serif;
+  font-size: 38px;
+  line-height: 60px;
+}
+
+.text-span-4 {
+  color: #04af34;
+}
+
+.text-span-6 {
+  color: #04af34;
+}
+
+.hmw_iayss {
+  display: block;
+  margin-bottom: 40px;
+  font-family: Avenirltstd, sans-serif;
+  font-size: 38px;
+  line-height: 60px;
+}
+
+.project_rizee {
+  left: 31%;
+}
+
+.rizee_logo {
+  margin-bottom: 60px;
+}
+
+.rizee_introduction {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-family: 'Avenirltstd book', sans-serif;
+}
+
+.rizee_borderline {
+  display: block;
+  max-width: 73.48%;
+  margin-bottom: 60px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.rizee_v02 {
+  display: none;
+}
+
+.rizee_border {
+  border-style: none none solid;
+  border-width: 0px 0px 1px;
+  border-color: #07b2bd #07b2bd #438bf8;
+}
+
+.rizee_website {
+  margin-bottom: 20px;
+  font-family: 'Avenirltstd book', sans-serif;
+  color: #333;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.iayss_project_name {
+  display: inline-block;
+  margin-top: 0px;
+  font-family: 'Avenirltstd roman', sans-serif;
+  color: #07b2bd;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.nda_iayss {
+  margin-bottom: 20px;
+  font-family: Avenirltstd, sans-serif;
+  color: #07b2bd;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.art_gallery_logo {
+  margin-bottom: 40px;
+}
+
+.art_gallery_introduction {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-family: 'Avenirltstd book', sans-serif;
+}
+
+.art_gallery_borderline {
+  display: block;
+  margin-bottom: 60px;
+}
+
+.project_art_gallery {
+  left: 29%;
+}
+
+.art_project_name {
+  display: inline-block;
+  margin-top: 0px;
+  font-family: 'Avenirltstd roman', sans-serif;
+  color: #9c6eff;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.art_gallery_border {
+  border-style: none none solid;
+  border-width: 0px 0px 1px;
+  border-color: #07b2bd #07b2bd #9c6eff;
+}
+
+.art_station_link {
+  margin-bottom: 60px;
+  font-family: 'Avenirltstd book', sans-serif;
+  color: #333;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.art_station {
+  text-decoration: none;
+}
+
+.rizee_site_link {
+  font-family: Avenirltstd, sans-serif;
+  color: #438bf8;
+}
+
+.text-span-8 {
+  font-family: Avenirltstd, sans-serif;
+  color: #9c6eff;
+}
+
+.art_gallery_v01 {
+  display: inline-block;
+}
+
+.art_gallery_v02 {
+  display: none;
+}
+
+.tools_used {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-family: Avenirltstd, sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.mealmate_case_study {
+  margin-bottom: 10px;
+  font-family: Avenirltstd, sans-serif;
+  color: #04af34;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.rizee_case_study {
+  font-family: Avenirltstd, sans-serif;
+  color: #438bf8;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.art_gallery_project_info {
+  font-family: Avenirltstd, sans-serif;
+  color: #9c6eff;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.iayss_case_study_info {
+  margin-bottom: 10px;
+  font-family: Avenirltstd, sans-serif;
+  color: #07b2bd;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.artwork_title {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #f2f2f2;
+}
+
+.art_name {
+  font-family: Avenirltstd, sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.topographic-terrain-1 {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 140px;
+  font-family: 'Avenirltstd book', sans-serif;
+}
+
+.topographic-terrain-2 {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 140px;
+  font-family: 'Avenirltstd book', sans-serif;
+}
+
+.raspberry {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 140px;
+  font-family: 'Avenirltstd book', sans-serif;
+}
+
+.soviet_nostalgia {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 140px;
+  font-family: 'Avenirltstd book', sans-serif;
+}
+
+.redbone {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 140px;
+  font-family: 'Avenirltstd book', sans-serif;
+}
+
+.real_treasure {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 140px;
+  font-family: 'Avenirltstd book', sans-serif;
+}
+
+.black_mirror {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 140px;
+  font-family: 'Avenirltstd book', sans-serif;
+}
+
+.concretism {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 140px;
+  font-family: 'Avenirltstd book', sans-serif;
+}
+
+.inevitable {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 140px;
+  font-family: 'Avenirltstd book', sans-serif;
+}
+
+.any_color_you_like {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 140px;
+  font-family: 'Avenirltstd book', sans-serif;
+}
+
+.villa_maria_cgi {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 140px;
+  font-family: 'Avenirltstd book', sans-serif;
+}
+
+.daft_punk_cgi {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 140px;
+  font-family: 'Avenirltstd book', sans-serif;
+}
+
+.asteroid_cgi {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 140px;
+  font-family: 'Avenirltstd book', sans-serif;
+}
+
+.lamborghini_cgi {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 140px;
+  font-family: 'Avenirltstd book', sans-serif;
+}
+
+.the_problem_mealmate {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-family: 'Avenirltstd book', sans-serif;
+}
+
+.learning_outcome_mealmate {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  font-family: 'Avenirltstd book', sans-serif;
+}
+
+.the_design_challenge_iayss {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-family: 'Avenirltstd book', sans-serif;
+}
+
+.learning_outcome_rizee {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  font-family: 'Avenirltstd book', sans-serif;
+}
+
+.learning_outcome_art_gallery {
+  display: none;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  font-family: 'Avenirltstd book', sans-serif;
+}
+
+.learning_outcome_iayss {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  font-family: 'Avenirltstd book', sans-serif;
+}
+
+.learning_outcomes_info_rizee {
+  margin-bottom: 20px;
+  font-family: 'Avenirltstd book', sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.learning_outcomes_info_iayss {
+  margin-bottom: 20px;
+  font-family: 'Avenirltstd book', sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.magnify {
+  margin-bottom: 10px;
+}
+
+.magnify.raspberry_v01 {
+  margin-bottom: 0px;
+}
+
+.magnify.redbone_v01 {
+  margin-bottom: 0px;
+}
+
+.magnify.topographic_art {
+  margin-bottom: 0px;
+}
+
+.magnifier {
+  display: block;
+  border-radius: 100px;
+  box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.35);
+}
+
+.raspberry_v02 {
+  display: none;
+}
+
+.soviet_v02 {
+  display: none;
+}
+
+.redbone_v02 {
+  display: none;
+}
+
+.pink_floyd_v01 {
+  max-width: 100%;
+}
+
+.my_introduction {
+  max-width: 90%;
+  margin-top: 140px;
+  margin-bottom: 140px;
+}
+
+.designer_info {
+  margin-bottom: 20px;
+  font-family: Avenirltstd, sans-serif;
+  font-size: 48px;
+  line-height: 80px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.text-span-10 {
+  font-family: Avenirltstd, sans-serif;
+  font-size: 48px;
+  line-height: 80px;
+  font-weight: 400;
+}
+
+.text-span-11 {
+  display: none;
+}
+
+.mealmate_project_selection {
+  position: relative;
+  display: block;
+  max-width: 90%;
+  margin-top: 0px;
+  margin-bottom: 25px;
+  padding-right: 0px;
+  padding-left: 0px;
+  font-family: 'Avenirltstd book', sans-serif;
+}
+
+.grid-4 {
+  grid-column-gap: 25px;
+  grid-row-gap: 20px;
+  -ms-grid-columns: 0.7fr 0.99fr;
+  grid-template-columns: 0.7fr 0.99fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.link_to_mealmate {
+  position: relative;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+
+.link_to_mealmate:hover {
+  box-shadow: 0 3px 10px 2px rgba(0, 0, 0, 0.25);
+  -webkit-transform: scale(1.012);
+  -ms-transform: scale(1.012);
+  transform: scale(1.012);
+}
+
+.link_to_rizee {
+  position: relative;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+
+.link_to_rizee:hover {
+  box-shadow: 0 3px 10px 2px rgba(0, 0, 0, 0.25);
+  -webkit-transform: scale(1.012);
+  -ms-transform: scale(1.012);
+  transform: scale(1.012);
+}
+
+.link_to_iayss {
+  position: relative;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+
+.link_to_iayss:hover {
+  box-shadow: 0 3px 10px 2px rgba(0, 0, 0, 0.25);
+  -webkit-transform: scale(1.012);
+  -ms-transform: scale(1.012);
+  transform: scale(1.012);
+}
+
+.link_to_art_gallery {
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+
+.link_to_art_gallery:hover {
+  box-shadow: 0 3px 10px 2px rgba(0, 0, 0, 0.25);
+  -webkit-transform: scale(1.012);
+  -ms-transform: scale(1.012);
+  transform: scale(1.012);
+}
+
+.mealmate_v04 {
+  display: none;
+}
+
+.rizee_v04 {
+  display: none;
+}
+
+.iayss_v04 {
+  display: none;
+}
+
+.link_to_rizee_v02 {
+  display: none;
+}
+
+.link_to_iayss_v02 {
+  display: inline-block;
+}
+
+.art_gallery_v04 {
+  display: none;
+}
+
+.bottom_nav_home {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+.mealmate_project_selection_2 {
+  position: static;
+  display: block;
+  max-width: 90%;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  padding-right: 0px;
+  padding-left: 0px;
+  font-family: 'Avenirltstd book', sans-serif;
+}
+
+.get_in_touch {
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  font-family: 'Avenirltstd roman', sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.disclosure {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  display: inline-block;
+  height: 100%;
+  opacity: 0;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+  text-align: center;
+}
+
+.disclosure:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  opacity: 1;
+}
+
+.mealmate_heading {
+  margin-top: 18%;
+  color: #fafafa;
+  font-size: 32px;
+  line-height: 60px;
+}
+
+.art_gallery_heading {
+  margin-top: 18%;
+  color: #fafafa;
+  font-size: 32px;
+  line-height: 60px;
+}
+
+.disclosure_iayss {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  display: inline-block;
+  height: 100%;
+  opacity: 0;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+  text-align: center;
+}
+
+.disclosure_iayss:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  opacity: 1;
+}
+
+.iayss_heading {
+  margin-top: 32.5%;
+  color: #fafafa;
+  font-size: 32px;
+  line-height: 60px;
+}
+
+.rizee_heading {
+  margin-top: 45%;
+  color: #fafafa;
+  font-size: 32px;
+  line-height: 60px;
+}
+
+.disclosure_rizee {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  display: inline-block;
+  height: 100%;
+  opacity: 0;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+  text-align: center;
+}
+
+.disclosure_rizee:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  opacity: 1;
+}
+
+.disclosure_iayss_v02 {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  display: none;
+  height: 100%;
+  opacity: 0;
+  -webkit-transition: all 150ms ease;
+  transition: all 150ms ease;
+  text-align: center;
+}
+
+.disclosure_iayss_v02:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  opacity: 1;
+}
+
+.iayss_heading_v02 {
+  margin-top: 32.5%;
+  color: #fafafa;
+  font-size: 38px;
+  line-height: 60px;
+}
+
+.rizee_heading_v02 {
+  margin-top: 45%;
+  color: #fafafa;
+  font-size: 38px;
+  line-height: 60px;
+}
+
+.disclosure_rizee_v02 {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  display: inline-block;
+  height: 100%;
+  opacity: 0;
+  -webkit-transition: all 150ms ease;
+  transition: all 150ms ease;
+  text-align: center;
+}
+
+.disclosure_rizee_v02:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  opacity: 1;
+}
+
+.about_me {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  font-family: 'Avenirltstd book', sans-serif;
+}
+
+.about_borderline {
+  display: block;
+  max-width: 73.48%;
+  margin-bottom: 60px;
+}
+
+.about_border {
+  border-style: none none solid;
+  border-width: 0px 0px 1px;
+  border-color: #07b2bd #07b2bd #000;
+}
+
+.grid-5 {
+  grid-column-gap: 40px;
+  -ms-grid-columns: 0.62fr 1fr;
+  grid-template-columns: 0.62fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.gmail {
+  margin-right: 0px;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+  font-family: 'Avenirltstd book', sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.gmail:hover {
+  color: #000;
+}
+
+.text-span-12 {
+  font-size: 24px;
+}
+
+.mail_icon {
+  display: inline-block;
+  margin-right: 0px;
+  font-family: 'Fa solid 900', sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.image-56 {
+  margin-top: 5px;
+}
+
+.quick_intro {
+  margin-top: 0px;
+  margin-bottom: 40px;
+  font-family: Avenirltstd, sans-serif;
+  font-size: 32px;
+  line-height: 50px;
+  font-weight: 900;
+  text-align: left;
+}
+
+.text-span-13 {
+  margin-right: 0px;
+  font-family: 'Fa brands 400', sans-serif;
+  font-size: 42px;
+  line-height: 80px;
+}
+
+.social_media {
+  display: inline-block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: 'Fa brands 400', sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.text-span-14 {
+  margin-right: 0px;
+  font-family: 'Fa brands 400', sans-serif;
+  font-size: 42px;
+  line-height: 80px;
+}
+
+.text-span-15 {
+  margin-right: 0px;
+  font-family: 'Fa brands 400', sans-serif;
+  font-size: 42px;
+  line-height: 80px;
+}
+
+.text-span-16 {
+  font-size: 42px;
+  line-height: 80px;
+}
+
+.reach_out {
+  margin-top: 0px;
+  margin-bottom: 40px;
+  font-family: Avenirltstd, sans-serif;
+  font-size: 48px;
+  line-height: 80px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.my_inspiration {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 60px;
+  font-family: 'Avenirltstd book', sans-serif;
+  text-align: center;
+}
+
+.project_details {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-family: Avenirltstd, sans-serif;
+  font-size: 20px;
+}
+
+.empathize_paragraph {
+  margin-bottom: 40px;
+  font-family: 'Avenirltstd book', sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.rizee_intro {
+  margin-bottom: 40px;
+  font-family: 'Avenirltstd book', sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: left;
+}
+
+.mealmate_intro_paragraph {
+  margin-bottom: 40px;
+  font-family: 'Avenirltstd book', sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: left;
+}
+
+.quick_info_interviews {
+  margin-bottom: 40px;
+  font-size: 12px;
+}
+
+.quick_info_anlysis {
+  margin-bottom: 40px;
+  font-size: 12px;
+}
+
+.evaluation_info {
+  margin-bottom: 40px;
+  font-family: 'Avenirltstd book', sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.usability_info {
+  margin-bottom: 40px;
+  font-family: 'Avenirltstd book', sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.approach_info {
+  margin-bottom: 40px;
+  font-family: 'Avenirltstd book', sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: left;
+}
+
+.icon_social_media {
+  display: inline-block;
+  margin-top: 0px;
+  margin-right: 0px;
+  padding-top: 0px;
+  font-family: 'Fa brands 400', sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.instagram {
+  margin-top: 0px;
+  margin-right: 40px;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.instagram:hover {
+  color: #000;
+}
+
+.linked_in {
+  margin-top: 0px;
+  margin-right: 40px;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.linked_in:hover {
+  color: #000;
+}
+
+.artstation {
+  margin-top: 0px;
+  margin-right: 40px;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.artstation:hover {
+  color: #000;
+}
+
+.fb {
+  margin-top: 0px;
+  margin-right: 0px;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.fb:hover {
+  color: #000;
+}
+
+.contact_me {
+  position: static;
+  display: block;
+  margin-bottom: 0px;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  text-align: left;
+}
+
+.email {
+  display: block;
+  max-width: 100%;
+  margin-top: 0px;
+  margin-bottom: 100px;
+  padding-left: 0px;
+  text-align: center;
+}
+
+.inspiration {
+  margin-top: 0px;
+  margin-bottom: 40px;
+  font-family: Avenirltstd, sans-serif;
+  font-size: 32px;
+  line-height: 50px;
+  font-weight: 900;
+  text-align: left;
+}
+
+.grid-6 {
+  margin-bottom: 40px;
+  grid-column-gap: 40px;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 100%;
+  grid-template-rows: 100%;
+}
+
+.soviet_architecture {
+  display: inline-block;
+}
+
+.dieter_rams_design {
+  display: none;
+  margin-bottom: 40px;
+}
+
+.fb_technology {
+  display: none;
+  margin-bottom: 40px;
+}
+
+.quick_info_art_gallery {
+  margin-bottom: 0px;
+  font-size: 12px;
+}
+
+.button {
+  padding: 10px 40px;
+  background-color: #000;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+  font-family: 'Avenirltstd roman', sans-serif;
+  color: #fafafa;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: left;
+}
+
+.button:hover {
+  border: 0px none #000;
+  background-color: #438bf8;
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+  color: #fff;
+}
+
+.social-media {
+  display: block;
+  max-width: 100%;
+  padding-left: 0px;
+  text-align: center;
+}
+
+.columns-2 {
+  max-width: 85%;
+  text-align: left;
+}
+
+.section {
+  text-align: left;
+}
+
+.grid-7 {
+  -ms-grid-columns: 0.25fr 1fr;
+  grid-template-columns: 0.25fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+@media screen and (min-width: 1280px) {
+  .about {
+    padding-bottom: 20px;
+    font-family: 'Avenirltstd roman', sans-serif;
+    color: #ababab;
+    font-weight: 400;
+  }
+
+  .about:hover {
+    border-bottom: 3px none #000;
+  }
+
+  .about:focus {
+    border-bottom: 3px none #000;
+    color: #000;
+  }
+
+  .work {
+    padding-bottom: 20px;
+    font-family: 'Avenirltstd roman', sans-serif;
+    color: #ababab;
+    font-weight: 400;
+  }
+
+  .work:hover {
+    border-bottom: 0px none #000;
+  }
+
+  .work:focus {
+    border-bottom: 0px none #000;
+    color: #000;
+  }
+
+  .resume {
+    padding-bottom: 20px;
+    font-family: 'Avenirltstd roman', sans-serif;
+    color: #ababab;
+    font-weight: 400;
+  }
+
+  .resume:hover {
+    border-bottom: 3px none #000;
+  }
+
+  .resume:focus {
+    border-bottom: 3px none #000;
+    color: #000;
+  }
+
+  .project {
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-top: 20px;
+    font-family: 'Avenirltstd roman', sans-serif;
+  }
+
+  .navbar {
+    top: 0px;
+    z-index: 9999;
+    margin-bottom: 60px;
+    background-color: hsla(0, 0%, 98%, 0.95);
+  }
+
+  .body {
+    background-color: #fafafa;
+  }
+
+  .home {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .nav_block {
+    max-width: none;
+    margin: 10px 50px;
+  }
+
+  .mealmate_v01 {
+    margin-top: 0px;
+  }
+
+  .mealmate_v02 {
+    display: none;
+  }
+
+  .introduction {
+    margin-bottom: 75%;
+    color: #04b034;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .empathize {
+    margin-bottom: 75%;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .define {
+    margin-bottom: 75%;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .ideate {
+    margin-bottom: 75%;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .prototype {
+    margin-bottom: 75%;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .test {
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .side_nav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20%;
+    z-index: 9999;
+    display: none;
+    margin-left: 70px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .project_mealmate {
+    left: 29%;
+    margin-right: 0px;
+    margin-left: 0%;
+    color: #04af34;
+  }
+
+  .mealmate_logo {
+    max-width: 73%;
+    margin-bottom: 60px;
+  }
+
+  .mealmate_introduction {
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .heading-2 {
+    font-size: 28px;
+  }
+
+  .paragraph {
+    margin-bottom: 40px;
+    font-size: 16px;
+  }
+
+  .columns {
+    margin-bottom: 10px;
+  }
+
+  .paragraph-2 {
+    font-family: 'Avenirltstd book', sans-serif;
+    font-size: 16px;
+  }
+
+  .heading-4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+
+  .heading-5 {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+
+  .paragraph-4 {
+    font-size: 16px;
+  }
+
+  .line {
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border-style: none none solid;
+    border-width: 1px 0px;
+    border-color: #04af34 #04af34 #04af34;
+  }
+
+  .the_problem {
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .the_goal {
+    max-width: 73%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .borderline {
+    max-width: 73%;
+    margin-bottom: 60px;
+    border-bottom: 0px none #04af34;
+  }
+
+  .design_thinking {
+    max-width: 73%;
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+
+  .approach {
+    margin-bottom: 40px;
+    font-size: 28px;
+  }
+
+  .empathize_process {
+    max-width: 73%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .quick_info {
+    margin-bottom: 40px;
+    font-size: 12px;
+  }
+
+  .questions {
+    margin-bottom: 10px;
+  }
+
+  .video {
+    margin-bottom: 10px;
+  }
+
+  .themantic-analysis {
+    max-width: 73%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .heading-2-v02 {
+    font-size: 24px;
+  }
+
+  .demograpghics_and_goals {
+    margin-bottom: 10px;
+  }
+
+  .motivations_and_needs {
+    margin-bottom: 10px;
+  }
+
+  .pain_points {
+    margin-bottom: 40px;
+  }
+
+  .define_process {
+    max-width: 73%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .personas {
+    margin-bottom: 40px;
+  }
+
+  .image-15 {
+    margin-bottom: 20px;
+  }
+
+  .my_role {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+
+  .ideate_process {
+    max-width: 73%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .ideate_sketches {
+    margin-bottom: 10px;
+  }
+
+  .ideate_info {
+    margin-bottom: 40px;
+    font-size: 16px;
+  }
+
+  .ideate_sketches_v02 {
+    margin-bottom: 40px;
+  }
+
+  .sitemap {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+
+  .sitemap_info {
+    margin-bottom: 40px;
+    font-size: 16px;
+  }
+
+  .instruction {
+    margin-bottom: 60px;
+    font-size: 16px;
+  }
+
+  .sitemap_process {
+    max-width: 73%;
+    margin-bottom: 10px;
+  }
+
+  .prototype_process {
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+
+  .prototype_sketches {
+    margin-bottom: 10px;
+  }
+
+  .prototype_sketches_v02 {
+    margin-bottom: 40px;
+  }
+
+  .prototype_info {
+    margin-bottom: 40px;
+    font-size: 16px;
+  }
+
+  .evaluation_screens-v02 {
+    margin-bottom: 40px;
+  }
+
+  .usability_test {
+    margin-bottom: 40px;
+  }
+
+  .visual_design {
+    max-width: 73%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .visual_design_info {
+    margin-bottom: 40px;
+    font-size: 16px;
+  }
+
+  .iconograpghy {
+    max-width: 73%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .hi-fidelity_prototype {
+    max-width: 73%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .image-45 {
+    margin-bottom: 40px;
+  }
+
+  .order_a_tiffin {
+    max-width: 73%;
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+
+  .order_a_tiffin_info {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+
+  .find_a_cook {
+    max-width: 73%;
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+
+  .hire-a-cook_info {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+
+  .subscribe_to_mealmate {
+    max-width: 73%;
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+
+  .subscription_info {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+
+  .my_profile_options {
+    max-width: 73%;
+    margin-top: 0px;
+    margin-bottom: 60px;
+  }
+
+  .learning_outcomes_info {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+
+  .learning_outcomes_heading {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+
+  .end {
+    margin-bottom: 20px;
+  }
+
+  .all_rights_reserved {
+    margin-bottom: 20px;
+    font-family: 'Avenirltstd book', sans-serif;
+    font-size: 18px;
+  }
+
+  .rights_reserved {
+    max-width: 100%;
+    margin-bottom: 60px;
+  }
+
+  .project_link {
+    -webkit-transition-duration: 250ms;
+    transition-duration: 250ms;
+    font-family: 'Avenirltstd roman', sans-serif;
+    color: #ababab;
+    font-size: 24px;
+  }
+
+  .project_link:hover {
+    color: #000;
+  }
+
+  .project_link:focus {
+    color: #000;
+  }
+
+  .bottom_nav {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+
+  .footer_nav {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    grid-row-gap: 35px;
+  }
+
+  .mealmate_project {
+    margin-top: 0px;
+  }
+
+  .art_gallery_project {
+    margin-bottom: 0px;
+  }
+
+  .iayss_logo {
+    margin-bottom: 60px;
+  }
+
+  .iayss_introduction {
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .the_approach {
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .task_flow_v01 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: Avenirltstd, sans-serif;
+    font-size: 18px;
+  }
+
+  .task_flow_v02 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+
+  .design_process {
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+
+  .rouch_sketches {
+    margin-bottom: 10px;
+  }
+
+  .lofi_wireframes {
+    margin-bottom: 10px;
+  }
+
+  .image-47 {
+    margin-bottom: 10px;
+  }
+
+  .hi-fi_prototypes {
+    margin-top: 0px;
+    margin-bottom: 60px;
+  }
+
+  .border {
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border-style: none none solid;
+    border-width: 0px 0px 1px;
+    border-color: #07b2bd;
+  }
+
+  .nda {
+    margin-bottom: 20px;
+    font-family: Avenirltstd, sans-serif;
+    color: #438bf8;
+    font-size: 16px;
+  }
+
+  .product_owner {
+    max-width: 100%;
+    margin-bottom: 60px;
+  }
+
+  .rizee_project_name {
+    font-family: 'Avenirltstd roman', sans-serif;
+    color: #438bf8;
+    font-size: 24px;
+  }
+
+  .copyright {
+    font-size: 14px;
+  }
+
+  .text-block-4 {
+    font-family: Avenirltstd, sans-serif;
+    font-size: 24px;
+  }
+
+  .linkedin {
+    font-family: 'Avenirltstd book', sans-serif;
+    font-weight: 400;
+  }
+
+  .project_iayss {
+    left: 31%;
+  }
+
+  .name {
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-top: 20px;
+    font-family: 'Avenirltstd roman', sans-serif;
+  }
+
+  .hmw_question_iayss {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .mealmate_project_name {
+    font-family: 'Avenirltstd roman', sans-serif;
+    font-size: 24px;
+  }
+
+  .hmw_mealmate {
+    margin-top: 0px;
+    margin-bottom: 40px;
+    font-size: 38px;
+  }
+
+  .text-span-4 {
+    color: #04af34;
+  }
+
+  .text-span-6 {
+    color: #04af34;
+  }
+
+  .hmw_iayss {
+    margin-bottom: 40px;
+    font-size: 38px;
+  }
+
+  .project_rizee {
+    left: 31%;
+  }
+
+  .rizee_logo {
+    margin-bottom: 60px;
+  }
+
+  .rizee_introduction {
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .rizee_v02 {
+    display: none;
+  }
+
+  .rizee_border {
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border-style: none none solid;
+    border-width: 0px 0px 1px;
+    border-color: #438bf8;
+  }
+
+  .rizee_website {
+    margin-bottom: 20px;
+    font-family: 'Avenirltstd book', sans-serif;
+    color: #333;
+    font-size: 16px;
+  }
+
+  .iayss_project_name {
+    font-family: 'Avenirltstd roman', sans-serif;
+    color: #07b2bd;
+    font-size: 24px;
+  }
+
+  .nda_iayss {
+    margin-bottom: 20px;
+    font-family: Avenirltstd, sans-serif;
+    color: #07b2bd;
+    font-size: 16px;
+  }
+
+  .art_gallery_logo {
+    margin-bottom: 40px;
+  }
+
+  .art_gallery_introduction {
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .project_art_gallery {
+    left: 29%;
+  }
+
+  .art_project_name {
+    font-family: 'Avenirltstd roman', sans-serif;
+    color: #9c6eff;
+    font-size: 24px;
+  }
+
+  .art_gallery_border {
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border-style: none none solid;
+    border-width: 0px 0px 1px;
+    border-color: #9c6eff;
+  }
+
+  .art_station_link {
+    margin-bottom: 60px;
+    font-family: 'Avenirltstd book', sans-serif;
+    color: #333;
+    font-size: 16px;
+  }
+
+  .tools_used {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+
+  .mealmate_case_study {
+    font-family: Avenirltstd, sans-serif;
+    font-size: 16px;
+  }
+
+  .rizee_case_study {
+    font-family: Avenirltstd, sans-serif;
+    font-size: 16px;
+  }
+
+  .art_gallery_project_info {
+    font-family: Avenirltstd, sans-serif;
+    font-size: 16px;
+  }
+
+  .iayss_case_study_info {
+    font-family: Avenirltstd, sans-serif;
+    font-size: 16px;
+  }
+
+  .topographic-terrain-1 {
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 140px;
+  }
+
+  .topographic-terrain-2 {
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 140px;
+  }
+
+  .raspberry {
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 140px;
+  }
+
+  .soviet_nostalgia {
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 140px;
+  }
+
+  .redbone {
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 140px;
+  }
+
+  .real_treasure {
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 140px;
+  }
+
+  .black_mirror {
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 140px;
+  }
+
+  .concretism {
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 140px;
+  }
+
+  .inevitable {
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 140px;
+  }
+
+  .any_color_you_like {
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 140px;
+  }
+
+  .villa_maria_cgi {
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 140px;
+  }
+
+  .daft_punk_cgi {
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 140px;
+  }
+
+  .asteroid_cgi {
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 140px;
+  }
+
+  .lamborghini_cgi {
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 140px;
+  }
+
+  .the_problem_mealmate {
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .learning_outcome_mealmate {
+    max-width: 73%;
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+
+  .the_design_challenge_iayss {
+    display: none;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .learning_outcome_rizee {
+    max-width: 73%;
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+
+  .learning_outcome_art_gallery {
+    max-width: 73%;
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+
+  .learning_outcome_iayss {
+    max-width: 73%;
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+
+  .learning_outcomes_info_rizee {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+
+  .learning_outcomes_info_iayss {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+
+  .raspberry_v02 {
+    display: none;
+  }
+
+  .my_introduction {
+    margin-bottom: 140px;
+  }
+
+  .designer_info {
+    font-size: 48px;
+  }
+
+  .text-span-10 {
+    font-size: 48px;
+    line-height: 80px;
+  }
+
+  .mealmate_project_selection {
+    margin-top: 0px;
+    margin-bottom: 25px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .grid-4 {
+    grid-column-gap: 25px;
+    -ms-grid-columns: 0.7fr 0.99fr;
+    grid-template-columns: 0.7fr 0.99fr;
+  }
+
+  .bottom_nav_home {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 40px;
+  }
+
+  .mealmate_project_selection_2 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .mealmate_heading {
+    font-size: 32px;
+  }
+
+  .art_gallery_heading {
+    font-size: 32px;
+  }
+
+  .iayss_heading {
+    font-size: 32px;
+  }
+
+  .rizee_heading {
+    font-size: 32px;
+  }
+
+  .about_me {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  .about_border {
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border-style: none none solid;
+    border-width: 0px 0px 1px;
+    border-color: #438bf8 #438bf8 #000;
+  }
+
+  .grid-5 {
+    grid-column-gap: 40px;
+    -ms-grid-columns: 0.62fr 1fr;
+    grid-template-columns: 0.62fr 1fr;
+  }
+
+  .gmail {
+    font-family: 'Avenirltstd book', sans-serif;
+    font-weight: 400;
+  }
+
+  .image-56 {
+    margin-top: 5px;
+  }
+
+  .quick_intro {
+    margin-bottom: 40px;
+    font-size: 32px;
+    text-align: left;
+  }
+
+  .social_media {
+    font-size: 16px;
+  }
+
+  .reach_out {
+    margin-bottom: 40px;
+    font-size: 48px;
+  }
+
+  .my_inspiration {
+    margin-top: 0px;
+    margin-bottom: 60px;
+  }
+
+  .project_details {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+
+  .empathize_paragraph {
+    line-height: 28px;
+  }
+
+  .rizee_intro {
+    margin-bottom: 40px;
+    font-size: 16px;
+  }
+
+  .mealmate_intro_paragraph {
+    margin-bottom: 40px;
+    font-size: 16px;
+  }
+
+  .quick_info_interviews {
+    margin-bottom: 40px;
+    font-size: 12px;
+  }
+
+  .quick_info_anlysis {
+    margin-bottom: 40px;
+    font-size: 12px;
+  }
+
+  .evaluation_info {
+    margin-bottom: 40px;
+    font-size: 16px;
+  }
+
+  .usability_info {
+    margin-bottom: 40px;
+    font-size: 16px;
+  }
+
+  .approach_info {
+    margin-bottom: 40px;
+    font-size: 16px;
+  }
+
+  .email {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .inspiration {
+    font-size: 32px;
+    line-height: 50px;
+  }
+
+  .grid-6 {
+    -ms-grid-rows: 100%;
+    grid-template-rows: 100%;
+  }
+
+  .quick_info_art_gallery {
+    margin-bottom: 40px;
+    font-size: 12px;
+  }
+
+  .social-media {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .about {
+    padding-bottom: 20px;
+    font-family: 'Avenirltstd roman', sans-serif;
+    color: #ababab;
+    font-weight: 400;
+  }
+
+  .about:hover {
+    border-bottom: 3px none #000;
+    color: #000;
+  }
+
+  .about:focus {
+    border-bottom: 3px none #000;
+    color: #000;
+  }
+
+  .work {
+    padding-bottom: 20px;
+    font-family: 'Avenirltstd roman', sans-serif;
+    color: #ababab;
+    font-weight: 400;
+  }
+
+  .work:hover {
+    padding-bottom: 20px;
+    border-bottom: 0px none #000;
+    color: #000;
+  }
+
+  .work:focus {
+    border-bottom: 0px none #000;
+    color: #000;
+  }
+
+  .resume {
+    padding-bottom: 20px;
+    font-family: 'Avenirltstd roman', sans-serif;
+    color: #ababab;
+    font-weight: 400;
+  }
+
+  .resume:hover {
+    border-bottom: 3px none #000;
+    color: #000;
+  }
+
+  .resume:focus {
+    border-bottom: 3px none #000;
+    color: #000;
+  }
+
+  .project {
+    display: inline-block;
+    margin-right: 0px;
+    padding-right: 20px;
+    font-family: 'Avenirltstd book', sans-serif;
+    font-weight: 400;
+  }
+
+  .navbar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    z-index: 9999;
+    margin-bottom: 60px;
+    background-color: hsla(0, 0%, 98%, 0.95);
+  }
+
+  .body {
+    background-color: #fafafa;
+  }
+
+  .home {
+    display: inline-block;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 0px;
+    font-size: 28px;
+    font-weight: 600;
+  }
+
+  .nav-menu {
+    margin-left: 0px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .menu-button {
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .nav_block {
+    max-width: none;
+    margin: 10px 70px;
+    font-family: 'Avenirltstd book', sans-serif;
+  }
+
+  .mealmate_v01 {
+    position: static;
+    max-width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+    float: none;
+  }
+
+  .mealmate_v02 {
+    display: none;
+    float: none;
+  }
+
+  .introduction {
+    margin-bottom: 75%;
+    color: #04b034;
+    font-size: 14px;
+  }
+
+  .empathize {
+    margin-bottom: 75%;
+    font-size: 14px;
+  }
+
+  .define {
+    margin-bottom: 75%;
+    font-size: 14px;
+  }
+
+  .ideate {
+    margin-bottom: 75%;
+    font-size: 14px;
+  }
+
+  .prototype {
+    margin-bottom: 75%;
+    font-size: 14px;
+  }
+
+  .test {
+    font-size: 14px;
+  }
+
+  .side_nav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20%;
+    z-index: 9999;
+    display: none;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 80px;
+    padding-right: 10px;
+    padding-left: 10px;
+    float: none;
+    clear: none;
+  }
+
+  .project_mealmate {
+    left: 32%;
+    display: inline-block;
+    margin-right: 0px;
+    margin-left: 0%;
+    color: #04af34;
+    font-size: 28px;
+    font-weight: 600;
+  }
+
+  .project_mealmate.w--current {
+    left: 31%;
+  }
+
+  .mealmate_logo {
+    position: static;
+    max-width: 70%;
+    margin-top: 0px;
+    margin-bottom: 60px;
+    clear: none;
+  }
+
+  .mealmate_introduction {
+    max-width: 70%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .heading-2 {
+    font-size: 28px;
+  }
+
+  .paragraph {
+    margin-bottom: 20px;
+    font-size: 16px;
+    text-align: left;
+  }
+
+  .columns {
+    margin-bottom: 10px;
+  }
+
+  .paragraph-2 {
+    font-family: 'Avenirltstd book', sans-serif;
+    font-weight: 400;
+  }
+
+  .heading-4 {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+
+  .heading-5 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .paragraph-4 {
+    font-size: 16px;
+  }
+
+  .line {
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border-style: none none solid;
+    border-width: 0px 0px 1px;
+    border-color: #04af34;
+  }
+
+  .the_problem {
+    max-width: 70%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .the_goal {
+    max-width: 70%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .borderline {
+    max-width: 70%;
+    margin-bottom: 60px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border: 0px solid #000;
+  }
+
+  .design_thinking {
+    max-width: 70%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .approach {
+    margin-bottom: 40px;
+    font-size: 28px;
+  }
+
+  .empathize_process {
+    max-width: 70%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .quick_info {
+    margin-bottom: 40px;
+  }
+
+  .questions {
+    margin-bottom: 10px;
+  }
+
+  .themantic-analysis {
+    max-width: 70%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .heading-2-v02 {
+    font-size: 24px;
+  }
+
+  .demograpghics_and_goals {
+    margin-bottom: 40px;
+  }
+
+  .motivations_and_needs {
+    margin-bottom: 40px;
+  }
+
+  .pain_points {
+    margin-bottom: 40px;
+  }
+
+  .define_process {
+    max-width: 70%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .personas {
+    margin-bottom: 40px;
+  }
+
+  .image-15 {
+    margin-bottom: 20px;
+  }
+
+  .image-16 {
+    margin-bottom: 40px;
+  }
+
+  .my_role {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .ideate_process {
+    max-width: 70%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .ideate_sketches {
+    margin-bottom: 10px;
+  }
+
+  .ideate_info {
+    margin-bottom: 40px;
+    font-size: 16px;
+  }
+
+  .ideate_sketches_v02 {
+    margin-bottom: 40px;
+  }
+
+  .image-23 {
+    margin-bottom: 40px;
+  }
+
+  .sitemap {
+    font-size: 20px;
+  }
+
+  .sitemap_info {
+    margin-bottom: 40px;
+    font-size: 16px;
+  }
+
+  .instruction {
+    margin-bottom: 60px;
+    font-size: 16px;
+  }
+
+  .intruction {
+    max-width: 100%;
+  }
+
+  .sitemap_process {
+    max-width: 70%;
+    margin-bottom: 10px;
+  }
+
+  .prototype_process {
+    max-width: 70%;
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+
+  .prototype_sketches {
+    margin-bottom: 10px;
+  }
+
+  .prototype_sketches_v02 {
+    margin-bottom: 40px;
+  }
+
+  .prototype_info {
+    margin-bottom: 40px;
+    font-size: 16px;
+  }
+
+  .evaluation_screens-v02 {
+    display: none;
+    margin-bottom: 40px;
+  }
+
+  .usability_test {
+    display: none;
+    margin-bottom: 40px;
+  }
+
+  .visual_design {
+    max-width: 70%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .visual_design_info {
+    margin-bottom: 40px;
+    font-size: 16px;
+  }
+
+  .font {
+    max-width: 60%;
+  }
+
+  .font_v02 {
+    max-width: 60%;
+  }
+
+  .iconograpghy {
+    max-width: 70%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .icons {
+    max-width: 60%;
+  }
+
+  .hi-fidelity_prototype {
+    max-width: 70%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .image-45 {
+    margin-bottom: 40px;
+  }
+
+  .order_a_tiffin {
+    max-width: 70%;
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+
+  .order_a_tiffin_info {
+    margin-bottom: 40px;
+    font-size: 16px;
+  }
+
+  .find_a_cook {
+    max-width: 70%;
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+
+  .hire-a-cook_info {
+    margin-bottom: 40px;
+    font-size: 16px;
+  }
+
+  .subscribe_to_mealmate {
+    max-width: 70%;
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+
+  .subscription_info {
+    margin-bottom: 40px;
+    font-size: 16px;
+  }
+
+  .my_profile_options {
+    max-width: 70%;
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+
+  .learning_outcomes_info {
+    margin-bottom: 40px;
+    font-size: 16px;
+  }
+
+  .learning_outcomes_heading {
+    font-size: 24px;
+  }
+
+  .end {
+    max-width: 70%;
+    margin-bottom: 40px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border: 0px solid #000;
+  }
+
+  .all_rights_reserved {
+    margin-bottom: 40px;
+    font-size: 20px;
+  }
+
+  .rights_reserved {
+    max-width: 100%;
+    margin-bottom: 40px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border: 0px solid #000;
+    text-align: center;
+  }
+
+  .project_link {
+    -webkit-transition-duration: 250ms;
+    transition-duration: 250ms;
+    font-family: 'Avenirltstd roman', sans-serif;
+    color: #ababab;
+    font-size: 28px;
+  }
+
+  .project_link:hover {
+    color: #000;
+  }
+
+  .project_link:focus {
+    color: #000;
+  }
+
+  .bottom_nav {
+    max-width: 70%;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    border: 0px solid #000;
+  }
+
+  .footer_nav {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    grid-auto-rows: minmax(auto, 0.25fr);
+    grid-row-gap: 35px;
+    -ms-grid-rows: auto auto auto;
+    grid-template-rows: auto auto auto;
+  }
+
+  .mealmate_project {
+    margin-top: 40px;
+  }
+
+  .art_gallery_project {
+    margin-bottom: 40px;
+  }
+
+  .iayss_logo {
+    position: static;
+    max-width: 70%;
+    margin-top: 0px;
+    margin-bottom: 60px;
+    clear: none;
+  }
+
+  .iayss_introduction {
+    max-width: 70%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .the_approach {
+    max-width: 70%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .task_flow_v01 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .task_flow_v02 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .design_process {
+    max-width: 70%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .rouch_sketches {
+    margin-bottom: 10px;
+  }
+
+  .lofi_wireframes {
+    margin-bottom: 10px;
+  }
+
+  .hi-fi_prototypes {
+    max-width: 70%;
+    margin-top: 0px;
+    margin-bottom: 60px;
+  }
+
+  .border {
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border-style: none none solid;
+    border-width: 0px 0px 1px;
+    border-color: #07b2bd;
+  }
+
+  .nda {
+    margin-bottom: 40px;
+    font-size: 16px;
+  }
+
+  .product_owner {
+    max-width: 100%;
+    margin-bottom: 40px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border: 0px solid #000;
+  }
+
+  .rizee_project_name {
+    display: inline-block;
+    margin-right: 0px;
+    font-family: 'Avenirltstd roman', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+  }
+
+  .iayss_borderline {
+    max-width: 70%;
+  }
+
+  .text-block-4 {
+    font-family: Avenirltstd, sans-serif;
+    font-size: 24px;
+  }
+
+  .linkedin {
+    font-family: 'Avenirltstd book', sans-serif;
+    font-weight: 400;
+  }
+
+  .project_iayss {
+    left: 34%;
+  }
+
+  .project_iayss.w--current {
+    left: 33%;
+  }
+
+  .text-block-5 {
+    font-size: 24px;
+  }
+
+  .text-block-6 {
+    font-size: 24px;
+  }
+
+  .text-block-7 {
+    font-size: 24px;
+  }
+
+  .text-block-8 {
+    font-size: 24px;
+  }
+
+  .text-block-9 {
+    font-size: 24px;
+  }
+
+  .text-block-10 {
+    font-size: 24px;
+  }
+
+  .text-block-11 {
+    font-size: 24px;
+  }
+
+  .text-block-12 {
+    font-size: 24px;
+  }
+
+  .name {
+    display: inline-block;
+    margin-right: 0px;
+    padding: 20px;
+    font-family: 'Avenirltstd book', sans-serif;
+    font-weight: 400;
+  }
+
+  .hmw_question_iayss {
+    max-width: 65%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .span_1 {
+    color: #07b2bd;
+  }
+
+  .mealmate_project_name {
+    font-family: 'Avenirltstd roman', sans-serif;
+    font-size: 24px;
+  }
+
+  .hmw_mealmate {
+    margin-top: 0px;
+    margin-bottom: 40px;
+    font-size: 38px;
+  }
+
+  .text-span-4 {
+    color: #04af34;
+  }
+
+  .hmw_iayss {
+    margin-bottom: 40px;
+    font-size: 38px;
+  }
+
+  .project_rizee {
+    left: 33%;
+  }
+
+  .rizee_logo {
+    position: static;
+    max-width: 70%;
+    margin-top: 0px;
+    margin-bottom: 60px;
+    clear: none;
+  }
+
+  .rizee_introduction {
+    max-width: 70%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .rizee_borderline {
+    max-width: 70%;
+  }
+
+  .rizee_v02 {
+    display: none;
+  }
+
+  .rizee_border {
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border-style: none none solid;
+    border-width: 0px 0px 1px;
+    border-color: #07b2bd #07b2bd #438bf8;
+  }
+
+  .rizee_website {
+    margin-bottom: 40px;
+    font-size: 16px;
+  }
+
+  .iayss_project_name {
+    display: inline-block;
+    margin-right: 0px;
+    font-family: 'Avenirltstd roman', sans-serif;
+    color: #07b2bd;
+    font-size: 24px;
+    font-weight: 400;
+  }
+
+  .nda_iayss {
+    margin-bottom: 40px;
+    font-size: 16px;
+  }
+
+  .art_gallery_logo {
+    position: static;
+    max-width: 70%;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    clear: none;
+  }
+
+  .art_gallery_introduction {
+    max-width: 70%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .art_gallery_borderline {
+    max-width: 70%;
+  }
+
+  .project_art_gallery {
+    left: 31%;
+    margin-bottom: 0px;
+  }
+
+  .art_project_name {
+    display: inline-block;
+    margin-right: 0px;
+    font-family: 'Avenirltstd roman', sans-serif;
+    color: #9c6eff;
+    font-size: 24px;
+    font-weight: 400;
+  }
+
+  .art_gallery_border {
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border-style: none none solid;
+    border-width: 0px 0px 1px;
+    border-color: #07b2bd #07b2bd #9c6eff;
+  }
+
+  .art_station_link {
+    margin-bottom: 60px;
+    font-size: 16px;
+  }
+
+  .tools_used {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .mealmate_case_study {
+    font-family: Avenirltstd, sans-serif;
+    font-weight: 400;
+  }
+
+  .rizee_case_study {
+    font-family: Avenirltstd, sans-serif;
+    font-weight: 400;
+  }
+
+  .art_gallery_project_info {
+    font-family: Avenirltstd, sans-serif;
+    font-weight: 400;
+  }
+
+  .iayss_case_study_info {
+    font-family: Avenirltstd, sans-serif;
+    font-weight: 400;
+  }
+
+  .topographic-terrain-1 {
+    display: block;
+    max-width: 70%;
+    margin-top: 0px;
+    margin-bottom: 140px;
+  }
+
+  .topographic-terrain-2 {
+    max-width: 70%;
+    margin-top: 0px;
+    margin-bottom: 140px;
+  }
+
+  .raspberry {
+    max-width: 70%;
+    margin-top: 0px;
+    margin-bottom: 140px;
+  }
+
+  .soviet_nostalgia {
+    max-width: 70%;
+    margin-top: 0px;
+    margin-bottom: 140px;
+  }
+
+  .redbone {
+    display: block;
+    max-width: 70%;
+    margin-top: 0px;
+    margin-bottom: 140px;
+  }
+
+  .real_treasure {
+    max-width: 70%;
+    margin-top: 0px;
+    margin-bottom: 140px;
+  }
+
+  .black_mirror {
+    max-width: 70%;
+    margin-top: 0px;
+    margin-bottom: 140px;
+  }
+
+  .concretism {
+    max-width: 70%;
+    margin-top: 0px;
+    margin-bottom: 140px;
+  }
+
+  .inevitable {
+    max-width: 70%;
+    margin-top: 0px;
+    margin-bottom: 140px;
+  }
+
+  .any_color_you_like {
+    max-width: 70%;
+    margin-top: 0px;
+    margin-bottom: 140px;
+  }
+
+  .villa_maria_cgi {
+    max-width: 70%;
+    margin-top: 0px;
+    margin-bottom: 140px;
+  }
+
+  .daft_punk_cgi {
+    max-width: 70%;
+    margin-top: 0px;
+    margin-bottom: 140px;
+  }
+
+  .asteroid_cgi {
+    max-width: 70%;
+    margin-top: 0px;
+    margin-bottom: 140px;
+  }
+
+  .lamborghini_cgi {
+    max-width: 70%;
+    margin-top: 0px;
+    margin-bottom: 140px;
+  }
+
+  .the_problem_mealmate {
+    max-width: 70%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .learning_outcome_mealmate {
+    display: block;
+    max-width: 70%;
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+
+  .the_design_challenge_iayss {
+    max-width: 70%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .learning_outcome_rizee {
+    display: block;
+    max-width: 70%;
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+
+  .learning_outcome_art_gallery {
+    display: none;
+    max-width: 70%;
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+
+  .learning_outcome_iayss {
+    display: block;
+    max-width: 70%;
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+
+  .learning_outcomes_info_rizee {
+    margin-bottom: 40px;
+    font-size: 16px;
+  }
+
+  .learning_outcomes_info_iayss {
+    margin-bottom: 40px;
+    font-size: 16px;
+  }
+
+  .raspberry_v02 {
+    display: none;
+  }
+
+  .inevitable_v01 {
+    max-width: 100%;
+  }
+
+  .my_introduction {
+    position: static;
+    max-width: 90%;
+    margin-top: 140px;
+    margin-bottom: 140px;
+    clear: none;
+  }
+
+  .designer_info {
+    font-size: 48px;
+  }
+
+  .text-span-10 {
+    font-size: 56px;
+    line-height: 100px;
+  }
+
+  .mealmate_project_selection {
+    max-width: 90%;
+    margin-top: 0px;
+    margin-bottom: 30px;
+  }
+
+  .grid-4 {
+    grid-column-gap: 30px;
+    grid-row-gap: 20px;
+  }
+
+  .bottom_nav_home {
+    max-width: 70%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    border: 0px solid #000;
+  }
+
+  .mealmate_project_selection_2 {
+    max-width: 90%;
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+
+  .get_in_touch {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+
+  .mealmate_heading {
+    margin-top: 18%;
+    font-size: 42px;
+    line-height: 80px;
+  }
+
+  .art_gallery_heading {
+    margin-top: 18%;
+    font-size: 42px;
+    line-height: 80px;
+  }
+
+  .iayss_heading {
+    margin-top: 32%;
+    font-size: 42px;
+    line-height: 80px;
+  }
+
+  .rizee_heading {
+    margin-top: 45%;
+    font-size: 42px;
+    line-height: 80px;
+  }
+
+  .iayss_heading_v02 {
+    margin-top: 18%;
+    font-size: 48px;
+    line-height: 80px;
+  }
+
+  .rizee_heading_v02 {
+    margin-top: 18%;
+    font-size: 48px;
+    line-height: 80px;
+  }
+
+  .hello {
+    max-width: 70%;
+  }
+
+  .about_me {
+    max-width: 70%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  .about_borderline {
+    max-width: 70%;
+  }
+
+  .about_border {
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border-style: none none solid;
+    border-width: 0px 0px 1px;
+    border-color: #07b2bd #07b2bd #000;
+  }
+
+  .grid-5 {
+    -ms-grid-columns: 0.5fr 1fr;
+    grid-template-columns: 0.5fr 1fr;
+  }
+
+  .gmail {
+    font-family: 'Avenirltstd book', sans-serif;
+    font-weight: 400;
+  }
+
+  .image-56 {
+    margin-top: 5px;
+  }
+
+  .quick_intro {
+    margin-bottom: 40px;
+    font-size: 32px;
+    text-align: left;
+  }
+
+  .social_media {
+    margin-top: 0px;
+    font-size: 16px;
+  }
+
+  .reach_out {
+    font-size: 48px;
+    line-height: 100px;
+  }
+
+  .my_inspiration {
+    max-width: 70%;
+    margin-top: 0px;
+    margin-bottom: 60px;
+  }
+
+  .project_details {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+
+  .empathize_paragraph {
+    line-height: 28px;
+  }
+
+  .rizee_intro {
+    margin-bottom: 40px;
+    font-size: 16px;
+    text-align: left;
+  }
+
+  .mealmate_intro_paragraph {
+    margin-bottom: 40px;
+    font-size: 16px;
+    text-align: left;
+  }
+
+  .quick_info_interviews {
+    margin-bottom: 40px;
+  }
+
+  .quick_info_anlysis {
+    margin-bottom: 40px;
+  }
+
+  .evaluation_info {
+    margin-bottom: 40px;
+    font-size: 16px;
+  }
+
+  .usability_info {
+    margin-bottom: 40px;
+    font-size: 16px;
+  }
+
+  .approach_info {
+    margin-bottom: 20px;
+    font-size: 16px;
+    text-align: left;
+  }
+
+  .contact_me {
+    max-width: 70%;
+  }
+
+  .inspiration {
+    font-size: 32px;
+    line-height: 50px;
+  }
+
+  .grid-6 {
+    margin-bottom: 40px;
+    -ms-grid-rows: 100%;
+    grid-template-rows: 100%;
+  }
+
+  .quick_info_art_gallery {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .about {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Avenirltstd roman', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+  }
+
+  .about:hover {
+    border-bottom: 3px none #000;
+    color: #000;
+  }
+
+  .about:focus {
+    border-bottom: 3px none #000;
+  }
+
+  .work {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 0px none #000;
+    -webkit-transition: all 250ms ease;
+    transition: all 250ms ease;
+    font-family: 'Avenirltstd roman', sans-serif;
+    color: #ababab;
+    font-size: 22px;
+    font-weight: 400;
+  }
+
+  .work:hover {
+    border-bottom: 0px none #000;
+    color: #000;
+  }
+
+  .work:focus {
+    border-bottom-style: none;
+    border-bottom-width: 0px;
+  }
+
+  .resume {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Avenirltstd roman', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+  }
+
+  .resume:hover {
+    border-bottom: 3px none #000;
+    color: #000;
+  }
+
+  .resume:focus {
+    border-bottom: 3px none #000;
+  }
+
+  .project {
+    margin-left: 0px;
+    padding: 0px;
+    font-family: 'Avenirltstd roman', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+  }
+
+  .navbar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    z-index: 9999;
+    margin-bottom: 100px;
+    background-color: hsla(0, 0%, 98%, 0.95);
+    font-family: 'Avenirltstd book', sans-serif;
+  }
+
+  .body {
+    background-color: #fafafa;
+    font-family: 'Avenirltstd book', sans-serif;
+  }
+
+  .home {
+    position: relative;
+    margin-left: 0px;
+    padding: 0px;
+  }
+
+  .nav-menu {
+    display: inline-block;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .nav_block {
+    margin-bottom: 10px;
+  }
+
+  .mealmate_v01 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+
+  .introduction {
+    margin-bottom: 75%;
+    color: #04b034;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .empathize {
+    margin-bottom: 75%;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .define {
+    margin-bottom: 75%;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .ideate {
+    margin-bottom: 75%;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .prototype {
+    margin-bottom: 75%;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .test {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .side_nav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 15%;
+    z-index: 9999;
+    display: none;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 70px;
+    padding-right: 20px;
+    padding-left: 20px;
+    float: left;
+  }
+
+  .project_mealmate {
+    position: relative;
+    left: 34%;
+    top: 0%;
+    right: auto;
+    bottom: auto;
+    margin-left: 0%;
+    padding: 20px;
+    float: none;
+    color: #04af34;
+    text-align: center;
+  }
+
+  .project_mealmate.w--current {
+    left: 34.5%;
+  }
+
+  .mealmate_logo {
+    display: block;
+    max-width: 75%;
+    margin-top: 0px;
+    margin-bottom: 60px;
+  }
+
+  .mealmate_introduction {
+    max-width: 75%;
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+
+  .heading-2 {
+    font-size: 32px;
+    line-height: 50px;
+    font-weight: 700;
+  }
+
+  .paragraph {
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+  }
+
+  .columns {
+    display: block;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .paragraph-2 {
+    padding-left: 0px;
+    font-family: 'Avenirltstd book', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .heading-4 {
+    font-size: 22px;
+  }
+
+  .heading-5 {
+    margin-bottom: 20px;
+    font-size: 22px;
+  }
+
+  .paragraph-4 {
+    padding-top: 10px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-size: 18px;
+  }
+
+  .column {
+    display: block;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .column-2 {
+    position: relative;
+    display: block;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .line {
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border-style: none none solid;
+    border-width: 0px 0px 1px;
+    border-color: #04af34;
+    border-radius: 0px;
+  }
+
+  .the_problem {
+    max-width: 75%;
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+
+  .the_goal {
+    max-width: 75%;
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+
+  .borderline {
+    max-width: 75%;
+    margin-bottom: 60px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-style: solid solid none;
+    border-width: 0px;
+    border-color: #000;
+    border-radius: 0px;
+  }
+
+  .design_thinking {
+    max-width: 75%;
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+
+  .approach {
+    margin-bottom: 40px;
+    font-size: 32px;
+    font-weight: 700;
+  }
+
+  .empathize_process {
+    max-width: 75%;
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+
+  .quick_info {
+    margin-bottom: 60px;
+    font-size: 14px;
+  }
+
+  .questions {
+    display: block;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .video {
+    margin-bottom: 10px;
+  }
+
+  .themantic-analysis {
+    max-width: 75%;
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+
+  .heading-2-v02 {
+    font-size: 28px;
+    font-weight: 700;
+  }
+
+  .demograpghics_and_goals {
+    display: block;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .motivations_and_needs {
+    display: block;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .pain_points {
+    display: block;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .define_process {
+    max-width: 75%;
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+
+  .personas {
+    display: block;
+    margin-right: 0px;
+    margin-bottom: 60px;
+    margin-left: 0px;
+  }
+
+  .image-15 {
+    margin-bottom: 40px;
+  }
+
+  .image-16 {
+    margin-bottom: 40px;
+  }
+
+  .my_role {
+    margin-bottom: 20px;
+    font-size: 22px;
+  }
+
+  .ideate_process {
+    max-width: 75%;
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+
+  .ideate_sketches {
+    display: block;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .ideate_info {
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .ideate_sketches_v02 {
+    display: none;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .image-23 {
+    margin-bottom: 60px;
+  }
+
+  .sitemap {
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: 700;
+  }
+
+  .sitemap_info {
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .instruction {
+    margin-top: 0px;
+    margin-bottom: 60px;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .intruction {
+    max-width: 100%;
+  }
+
+  .sitemap_process {
+    position: relative;
+    max-width: 75%;
+    margin-bottom: 10px;
+  }
+
+  .prototype_process {
+    max-width: 75%;
+    margin-top: 0px;
+    margin-bottom: 60px;
+  }
+
+  .prototype_sketches {
+    display: block;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .prototype_sketches_v02 {
+    display: none;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .prototype_info {
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .image-28 {
+    margin-bottom: 60px;
+  }
+
+  .evalustion_process {
+    margin-bottom: 60px;
+  }
+
+  .evaluation_screens-v02 {
+    display: none;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .sketch_1 {
+    position: relative;
+    display: block;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .sketch_2 {
+    display: block;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .ideate_1 {
+    position: relative;
+    display: block;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .ideate_2 {
+    display: block;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .home_screen {
+    position: relative;
+    display: block;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .tiffin_order_screen {
+    display: block;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .usability_test {
+    display: none;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .location_screen {
+    position: relative;
+    display: block;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .tiffin_schedule_screen {
+    display: block;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .visual_design {
+    max-width: 75%;
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+
+  .visual_design_info {
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .iconograpghy {
+    max-width: 75%;
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+
+  .hi-fidelity_prototype {
+    max-width: 75%;
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+
+  .order_a_tiffin {
+    max-width: 75%;
+    margin-top: 0px;
+    margin-bottom: 60px;
+  }
+
+  .order_a_tiffin_info {
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .find_a_cook {
+    max-width: 75%;
+    margin-top: 0px;
+    margin-bottom: 60px;
+  }
+
+  .hire-a-cook_info {
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .subscribe_to_mealmate {
+    max-width: 75%;
+    margin-top: 0px;
+    margin-bottom: 60px;
+  }
+
+  .subscription_info {
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .my_profile_options {
+    max-width: 75%;
+    margin-top: 0px;
+    margin-bottom: 60px;
+  }
+
+  .learning_outcomes_info {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .learning_outcomes_heading {
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: 700;
+  }
+
+  .end {
+    max-width: 75%;
+    margin-bottom: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border: 0px solid #000;
+    border-radius: 0px;
+  }
+
+  .all_rights_reserved {
+    margin-top: 40px;
+    font-size: 22px;
+    font-weight: 400;
+  }
+
+  .rights_reserved {
+    max-width: 100%;
+    margin-bottom: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border: 0px solid #000;
+    border-radius: 0px;
+    font-family: 'Avenirltstd book', sans-serif;
+  }
+
+  .project_link {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    -webkit-transition: all 250ms ease;
+    transition: all 250ms ease;
+    color: #ababab;
+    font-size: 36px;
+  }
+
+  .project_link:hover {
+    color: #000;
+  }
+
+  .project_link:focus {
+    color: #000;
+  }
+
+  .bottom_nav {
+    max-width: 75%;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    border: 0px solid #000;
+    border-radius: 0px;
+  }
+
+  .footer_nav {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    grid-column-gap: 75px;
+    grid-row-gap: 35px;
+    -ms-grid-rows: auto auto auto;
+    grid-template-rows: auto auto auto;
+  }
+
+  .art_gallery_project {
+    text-align: left;
+  }
+
+  .iayss_logo {
+    display: block;
+    max-width: 75%;
+    margin-top: 0px;
+    margin-bottom: 60px;
+  }
+
+  .iayss_introduction {
+    max-width: 75%;
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+
+  .the_approach {
+    max-width: 75%;
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+
+  .task_flow_v01 {
+    margin-bottom: 20px;
+    font-size: 22px;
+  }
+
+  .task_flow_v02 {
+    margin-bottom: 20px;
+    font-size: 22px;
+  }
+
+  .design_process {
+    max-width: 75%;
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+
+  .rouch_sketches {
+    display: block;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .lofi_wireframes {
+    display: block;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .hi-fi_prototypes {
+    max-width: 75%;
+    margin-top: 0px;
+    margin-bottom: 60px;
+  }
+
+  .border {
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border-style: none none solid;
+    border-width: 0px 0px 1px;
+    border-color: #07b2bd;
+    border-radius: 0px;
+    background-color: #07b2bd;
+  }
+
+  .nda {
+    margin-top: 40px;
+    color: #438bf8;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .product_owner {
+    max-width: 100%;
+    margin-bottom: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border: 0px solid #000;
+    border-radius: 0px;
+    font-family: 'Avenirltstd book', sans-serif;
+  }
+
+  .rizee_project_name {
+    display: inline-block;
+    padding-top: 0px;
+    font-family: 'Avenirltstd roman', sans-serif;
+    color: #438bf8;
+    font-size: 28px;
+  }
+
+  .iayss_borderline {
+    max-width: 75%;
+  }
+
+  .text-block-4 {
+    font-family: Avenirltstd, sans-serif;
+    font-size: 28px;
+  }
+
+  .linkedin {
+    padding-top: 0px;
+    font-family: 'Avenirltstd book', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+  }
+
+  .project_iayss {
+    left: 35%;
+    padding: 20px;
+  }
+
+  .project_iayss.w--current {
+    left: 36%;
+  }
+
+  .text-block-5 {
+    font-size: 28px;
+  }
+
+  .text-block-6 {
+    font-size: 28px;
+  }
+
+  .text-block-7 {
+    font-size: 28px;
+  }
+
+  .text-block-8 {
+    font-size: 28px;
+  }
+
+  .text-block-9 {
+    font-size: 28px;
+  }
+
+  .text-block-10 {
+    font-size: 28px;
+  }
+
+  .text-block-11 {
+    font-size: 28px;
+  }
+
+  .text-block-12 {
+    font-size: 28px;
+  }
+
+  .name {
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding: 20px;
+    font-family: 'Avenirltstd roman', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+  }
+
+  .hmw_question_iayss {
+    max-width: 65%;
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+
+  .span_1 {
+    color: #07b2bd;
+  }
+
+  .paragraph-6 {
+    font-size: 18px;
+  }
+
+  .paragraph-7 {
+    font-size: 18px;
+  }
+
+  .mealmate_project_name {
+    font-family: 'Avenirltstd roman', sans-serif;
+    font-size: 28px;
+  }
+
+  .hmw_mealmate {
+    margin-top: 0px;
+    margin-bottom: 60px;
+    font-size: 48px;
+    line-height: 75px;
+    font-weight: 400;
+  }
+
+  .text-span-4 {
+    color: #04af34;
+  }
+
+  .hmw_iayss {
+    margin-top: 40px;
+    font-size: 48px;
+    line-height: 75px;
+    font-weight: 400;
+  }
+
+  .project_rizee {
+    left: 36%;
+    padding: 20px;
+  }
+
+  .rizee_logo {
+    display: block;
+    max-width: 75%;
+    margin-top: 0px;
+    margin-bottom: 60px;
+  }
+
+  .rizee_introduction {
+    max-width: 75%;
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+
+  .rizee_borderline {
+    max-width: 75%;
+  }
+
+  .rizee_v02 {
+    display: none;
+  }
+
+  .rizee_border {
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border-style: none none solid;
+    border-width: 1px;
+    border-color: #438bf8;
+    border-radius: 0px;
+  }
+
+  .rizee_website {
+    margin-top: 40px;
+    font-family: 'Avenirltstd book', sans-serif;
+    color: #333;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .iayss_project_name {
+    display: inline-block;
+    padding-top: 0px;
+    font-family: 'Avenirltstd roman', sans-serif;
+    color: #07b2bd;
+    font-size: 28px;
+  }
+
+  .nda_iayss {
+    margin-top: 40px;
+    color: #07b2bd;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .art_gallery_logo {
+    display: block;
+    max-width: 75%;
+    margin-top: 0px;
+    margin-bottom: 60px;
+  }
+
+  .art_gallery_introduction {
+    max-width: 75%;
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+
+  .art_gallery_borderline {
+    display: block;
+    max-width: 75%;
+  }
+
+  .project_art_gallery {
+    left: 34%;
+    margin-bottom: 0px;
+    padding: 20px;
+  }
+
+  .art_project_name {
+    display: inline-block;
+    padding-top: 0px;
+    font-family: 'Avenirltstd roman', sans-serif;
+    color: #9c6eff;
+    font-size: 28px;
+  }
+
+  .art_gallery_border {
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border-style: none none solid;
+    border-width: 1px;
+    border-color: #438bf8 #438bf8 #9c6eff;
+    border-radius: 0px;
+  }
+
+  .art_station_link {
+    margin-top: 40px;
+    margin-bottom: 60px;
+    font-family: 'Avenirltstd book', sans-serif;
+    color: #333;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .tools_used {
+    margin-bottom: 20px;
+    font-size: 22px;
+  }
+
+  .column-5 {
+    text-align: left;
+  }
+
+  .mealmate_case_study {
+    padding-top: 10px;
+    padding-left: 0px;
+    font-family: Avenirltstd, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .rizee_case_study {
+    padding-left: 0px;
+    font-family: Avenirltstd, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .art_gallery_project_info {
+    padding-left: 0px;
+    font-family: Avenirltstd, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .iayss_case_study_info {
+    padding-top: 10px;
+    padding-left: 0px;
+    font-family: Avenirltstd, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .art_name {
+    font-size: 18px;
+  }
+
+  .topographic-terrain-1 {
+    display: block;
+    max-width: 75%;
+    margin-top: 0px;
+    margin-bottom: 140px;
+  }
+
+  .topographic-terrain-2 {
+    max-width: 75%;
+    margin-top: 0px;
+    margin-bottom: 140px;
+  }
+
+  .raspberry {
+    max-width: 75%;
+    margin-top: 0px;
+    margin-bottom: 140px;
+  }
+
+  .soviet_nostalgia {
+    max-width: 75%;
+    margin-top: 0px;
+    margin-bottom: 140px;
+  }
+
+  .redbone {
+    display: block;
+    max-width: 75%;
+    margin-top: 0px;
+    margin-bottom: 140px;
+  }
+
+  .real_treasure {
+    max-width: 75%;
+    margin-top: 0px;
+    margin-bottom: 140px;
+  }
+
+  .black_mirror {
+    max-width: 75%;
+    margin-top: 0px;
+    margin-bottom: 140px;
+  }
+
+  .concretism {
+    max-width: 75%;
+    margin-top: 0px;
+    margin-bottom: 140px;
+  }
+
+  .inevitable {
+    max-width: 75%;
+    margin-top: 0px;
+    margin-bottom: 140px;
+  }
+
+  .any_color_you_like {
+    max-width: 75%;
+    margin-top: 0px;
+    margin-bottom: 140px;
+  }
+
+  .villa_maria_cgi {
+    max-width: 75%;
+    margin-top: 0px;
+    margin-bottom: 140px;
+  }
+
+  .daft_punk_cgi {
+    max-width: 75%;
+    margin-top: 0px;
+    margin-bottom: 140px;
+  }
+
+  .asteroid_cgi {
+    max-width: 75%;
+    margin-top: 0px;
+    margin-bottom: 140px;
+  }
+
+  .lamborghini_cgi {
+    max-width: 75%;
+    margin-top: 0px;
+    margin-bottom: 140px;
+  }
+
+  .the_problem_mealmate {
+    max-width: 75%;
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+
+  .learning_outcome_mealmate {
+    max-width: 75%;
+    margin-top: 0px;
+    margin-bottom: 60px;
+  }
+
+  .the_design_challenge_iayss {
+    display: block;
+    max-width: 75%;
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+
+  .learning_outcome_rizee {
+    max-width: 75%;
+    margin-top: 0px;
+    margin-bottom: 60px;
+  }
+
+  .learning_outcome_art_gallery {
+    display: none;
+    max-width: 75%;
+    margin-top: 0px;
+    margin-bottom: 60px;
+  }
+
+  .learning_outcome_iayss {
+    max-width: 75%;
+    margin-top: 0px;
+    margin-bottom: 60px;
+  }
+
+  .learning_outcomes_info_rizee {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .learning_outcomes_info_iayss {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .magnifier {
+    display: block;
+  }
+
+  .black_mirror_v01 {
+    max-width: 100%;
+  }
+
+  .my_introduction {
+    display: block;
+    max-width: 90%;
+    margin-top: 180px;
+    margin-bottom: 180px;
+  }
+
+  .designer_info {
+    font-family: Avenirltstd, sans-serif;
+    font-size: 56px;
+    line-height: 90px;
+    font-weight: 400;
+  }
+
+  .text-span-10 {
+    font-family: Avenirltstd, sans-serif;
+    font-size: 64px;
+    line-height: 120px;
+  }
+
+  .text-span-11 {
+    font-family: Avenirltstd, sans-serif;
+  }
+
+  .mealmate_project_selection {
+    position: relative;
+    max-width: 90%;
+    margin-top: 0px;
+    margin-bottom: 35px;
+  }
+
+  .grid-4 {
+    grid-column-gap: 35px;
+    -ms-grid-columns: 0.7fr 0.99fr;
+    grid-template-columns: 0.7fr 0.99fr;
+  }
+
+  .link_to_mealmate {
+    position: relative;
+  }
+
+  .bottom_nav_home {
+    max-width: 75%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    border: 0px solid #000;
+    border-radius: 0px;
+  }
+
+  .mealmate_project_selection_2 {
+    position: relative;
+    max-width: 90%;
+    margin-top: 0px;
+    margin-bottom: 15px;
+  }
+
+  .get_in_touch {
+    font-size: 24px;
+  }
+
+  .disclosure {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+    display: inline-block;
+    height: 100%;
+    opacity: 0;
+    -webkit-transition: all 200ms ease;
+    transition: all 200ms ease;
+    font-family: 'Avenirltstd book', sans-serif;
+    color: #fff;
+    line-height: 100px;
+    font-weight: 900;
+    text-align: center;
+  }
+
+  .disclosure:hover {
+    display: inline-block;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 1;
+    font-size: 0px;
+  }
+
+  .mealmate_heading {
+    margin-top: 17%;
+    font-size: 48px;
+    line-height: 100px;
+  }
+
+  .art_gallery_heading {
+    margin-top: 18%;
+    font-size: 48px;
+    line-height: 100px;
+  }
+
+  .disclosure_iayss {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+    display: inline-block;
+    height: 100%;
+    opacity: 0;
+    -webkit-transition: all 200ms ease;
+    transition: all 200ms ease;
+    font-family: 'Avenirltstd book', sans-serif;
+    color: #fff;
+    line-height: 100px;
+    font-weight: 900;
+    text-align: center;
+  }
+
+  .disclosure_iayss:hover {
+    display: inline-block;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 1;
+    font-size: 0px;
+  }
+
+  .iayss_heading {
+    margin-top: 32%;
+    font-size: 48px;
+    line-height: 100px;
+  }
+
+  .rizee_heading {
+    margin-top: 45%;
+    font-size: 48px;
+    line-height: 100px;
+  }
+
+  .disclosure_rizee {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+    display: inline-block;
+    height: 100%;
+    opacity: 0;
+    -webkit-transition: all 200ms ease;
+    transition: all 200ms ease;
+    font-family: 'Avenirltstd book', sans-serif;
+    color: #fff;
+    line-height: 100px;
+    font-weight: 900;
+    text-align: center;
+  }
+
+  .disclosure_rizee:hover {
+    display: inline-block;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 1;
+    font-size: 0px;
+  }
+
+  .disclosure_iayss_v02 {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+    display: none;
+    height: 100%;
+    opacity: 0;
+    -webkit-transition: all 200ms ease;
+    transition: all 200ms ease;
+    font-family: 'Avenirltstd book', sans-serif;
+    color: #fff;
+    line-height: 100px;
+    font-weight: 900;
+    text-align: center;
+  }
+
+  .disclosure_iayss_v02:hover {
+    display: inline-block;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 1;
+    font-size: 0px;
+  }
+
+  .iayss_heading_v02 {
+    margin-top: 18%;
+    font-size: 64px;
+    line-height: 100px;
+  }
+
+  .rizee_heading_v02 {
+    margin-top: 18%;
+    font-size: 64px;
+    line-height: 100px;
+  }
+
+  .disclosure_rizee_v02 {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+    display: inline-block;
+    height: 100%;
+    opacity: 0;
+    -webkit-transition: all 200ms ease;
+    transition: all 200ms ease;
+    font-family: 'Avenirltstd book', sans-serif;
+    color: #fff;
+    line-height: 100px;
+    font-weight: 900;
+    text-align: center;
+  }
+
+  .disclosure_rizee_v02:hover {
+    display: inline-block;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 1;
+    font-size: 0px;
+  }
+
+  .hello {
+    max-width: 75%;
+  }
+
+  .about_me {
+    max-width: 75%;
+    margin-top: 100px;
+    margin-bottom: 80px;
+  }
+
+  .about_borderline {
+    max-width: 75%;
+  }
+
+  .about_border {
+    padding-right: 0px;
+    padding-bottom: 0px;
+    border-style: none none solid;
+    border-width: 0px 0px 1px;
+    border-color: #438bf8 #438bf8 #000;
+    border-radius: 0px;
+  }
+
+  .grid-5 {
+    -ms-grid-columns: 0.25fr 1fr;
+    grid-template-columns: 0.25fr 1fr;
+  }
+
+  .gmail {
+    padding-top: 0px;
+    font-family: 'Avenirltstd book', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+  }
+
+  .text-span-12 {
+    font-size: 28px;
+  }
+
+  .mail_icon {
+    font-size: 28px;
+  }
+
+  .image-56 {
+    margin-top: 10px;
+  }
+
+  .quick_intro {
+    margin-bottom: 40px;
+    font-size: 38px;
+    line-height: 50px;
+    font-weight: 700;
+    text-align: left;
+  }
+
+  .text-span-13 {
+    margin-right: 0px;
+    font-family: 'Fa brands 400', sans-serif;
+    font-size: 42px;
+    line-height: 80px;
+    text-align: left;
+  }
+
+  .social_media {
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-size: 38px;
+    text-align: center;
+  }
+
+  .text-span-14 {
+    margin-right: 0px;
+    font-family: 'Fa brands 400', sans-serif;
+    font-size: 42px;
+    line-height: 80px;
+  }
+
+  .text-span-15 {
+    font-size: 42px;
+    line-height: 80px;
+  }
+
+  .text-span-16 {
+    font-size: 42px;
+    line-height: 80px;
+  }
+
+  .reach_out {
+    margin-bottom: 60px;
+    font-size: 56px;
+    line-height: 120px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .my_inspiration {
+    max-width: 75%;
+    margin-top: 0px;
+    margin-bottom: 60px;
+    padding-top: 20px;
+  }
+
+  .project_details {
+    margin-bottom: 20px;
+    font-size: 22px;
+  }
+
+  .empathize_paragraph {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .rizee_intro {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+  }
+
+  .mealmate_intro_paragraph {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+  }
+
+  .quick_info_interviews {
+    margin-bottom: 60px;
+    font-size: 14px;
+  }
+
+  .quick_info_anlysis {
+    margin-bottom: 60px;
+    font-size: 14px;
+  }
+
+  .evaluation_info {
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .usability_info {
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .approach_info {
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+  }
+
+  .icon_social_media {
+    font-size: 18px;
+  }
+
+  .linked_in {
+    font-size: 18px;
+  }
+
+  .contact_me {
+    max-width: 75%;
+    margin-bottom: 20px;
+    padding-top: 40px;
+  }
+
+  .email {
+    overflow: hidden;
+    max-width: 100%;
+    margin-bottom: 140px;
+    font-family: Avenirltstd, sans-serif;
+    font-size: 18px;
+  }
+
+  .inspiration {
+    font-size: 38px;
+    line-height: 50px;
+    font-weight: 700;
+  }
+
+  .grid-6 {
+    margin-bottom: 60px;
+    grid-column-gap: 60px;
+    -ms-grid-rows: 100%;
+    grid-template-rows: 100%;
+  }
+
+  .quick_info_art_gallery {
+    margin-bottom: 60px;
+    font-size: 14px;
+  }
+
+  .column-9 {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .button {
+    padding: 15px 50px;
+    font-family: 'Avenirltstd roman', sans-serif;
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .social-media {
+    overflow: hidden;
+    max-width: 100%;
+    font-family: Avenirltstd, sans-serif;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .about {
+    display: block;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-bottom: 1px solid hsla(0, 0%, 98%, 0.35);
+    font-family: Avenirltstd, sans-serif;
+    color: #fafafa;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .about:hover {
+    border-bottom: 1px solid hsla(0, 0%, 98%, 0.35);
+    color: #438bf8;
+  }
+
+  .work {
+    display: block;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-bottom: 1px solid hsla(0, 0%, 98%, 0.35);
+    font-family: Avenirltstd, sans-serif;
+    color: #fafafa;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .work:hover {
+    border-bottom: 1px solid hsla(0, 0%, 98%, 0.35);
+    color: #438bf8;
+  }
+
+  .work.w--current {
+    border-bottom: 1px solid hsla(0, 0%, 98%, 0.35);
+    color: #438bf8;
+  }
+
+  .resume {
+    display: block;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-bottom: 1px none #000;
+    font-family: Avenirltstd, sans-serif;
+    color: #fafafa;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .resume:hover {
+    display: block;
+    color: #438bf8;
+  }
+
+  .project {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .navbar {
+    margin-bottom: 80px;
+  }
+
+  .home {
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+
+  .nav-menu {
+    border: 0px none #000;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .menu-button {
+    padding: 20px;
+    background-color: #fafafa;
+    font-size: 28px;
+  }
+
+  .menu-button.w--open {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .nav_block {
+    margin: 0px auto;
+  }
+
+  .mealmate_v01 {
+    margin-top: 0px;
+  }
+
+  .side_nav {
+    display: none;
+  }
+
+  .project_mealmate {
+    display: none;
+    margin-left: 0px;
+  }
+
+  .mealmate_logo {
+    max-width: 95%;
+    margin-bottom: 60px;
+  }
+
+  .mealmate_introduction {
+    max-width: 95%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .heading-2 {
+    font-size: 28px;
+    font-weight: 700;
+  }
+
+  .paragraph {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .columns {
+    margin-bottom: 20px;
+  }
+
+  .paragraph-2 {
+    margin-bottom: 10px;
+    line-height: 28px;
+  }
+
+  .heading-4 {
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+
+  .heading-5 {
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+
+  .paragraph-4 {
+    margin-bottom: 10px;
+    line-height: 28px;
+  }
+
+  .column {
+    display: inline-block;
+  }
+
+  .column-2 {
+    display: inline-block;
+  }
+
+  .line {
+    border-bottom-width: 1px;
+    border-left-width: 0px;
+    border-left-color: #04af34;
+  }
+
+  .the_problem {
+    max-width: 95%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .the_goal {
+    max-width: 95%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .borderline {
+    max-width: 95%;
+    margin-bottom: 60px;
+  }
+
+  .design_thinking {
+    max-width: 95%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .approach {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .image-8 {
+    display: none;
+  }
+
+  .image-9 {
+    display: none;
+  }
+
+  .image-10 {
+    display: inline-block;
+  }
+
+  .empathize_process {
+    max-width: 95%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .quick_info {
+    margin-bottom: 40px;
+  }
+
+  .questions {
+    margin-bottom: 10px;
+  }
+
+  .themantic-analysis {
+    max-width: 95%;
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+
+  .heading-2-v02 {
+    font-size: 22px;
+    font-weight: 700;
+  }
+
+  .demograpghics_and_goals {
+    margin-bottom: 10px;
+  }
+
+  .motivations_and_needs {
+    margin-bottom: 10px;
+  }
+
+  .pain_points {
+    margin-bottom: 10px;
+  }
+
+  .define_process {
+    max-width: 95%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .personas {
+    margin-bottom: 40px;
+  }
+
+  .image-15 {
+    display: none;
+  }
+
+  .image-16 {
+    display: none;
+  }
+
+  .image-17 {
+    display: block;
+    margin-bottom: 40px;
+  }
+
+  .image-18 {
+    display: block;
+    margin-bottom: 40px;
+  }
+
+  .image-19 {
+    max-width: 100%;
+  }
+
+  .image-20 {
+    max-width: 100%;
+  }
+
+  .my_role {
+    font-size: 18px;
+  }
+
+  .ideate_process {
+    max-width: 95%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .ideate_sketches {
+    display: none;
+    margin-bottom: 10px;
+  }
+
+  .ideate_info {
+    margin-bottom: 60px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .ideate_sketches_v02 {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .image-23 {
+    margin-bottom: 40px;
+  }
+
+  .sitemap {
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  .sitemap_info {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .instruction {
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .intruction {
+    display: block;
+    max-width: 100%;
+  }
+
+  .sitemap_process {
+    max-width: 95%;
+    margin-bottom: 10px;
+  }
+
+  .prototype_process {
+    max-width: 95%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .prototype_sketches {
+    display: none;
+    margin-bottom: 10px;
+  }
+
+  .prototype_sketches_v02 {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .prototype_info {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .image-25 {
+    max-width: 100%;
+  }
+
+  .image-26 {
+    max-width: 100%;
+  }
+
+  .image-28 {
+    display: inline-block;
+  }
+
+  .image-33 {
+    display: none;
+    margin-bottom: 40px;
+  }
+
+  .image-34 {
+    display: none;
+    margin-bottom: 40px;
+  }
+
+  .image-35 {
+    display: none;
+    margin-bottom: 40px;
+  }
+
+  .image-36 {
+    display: none;
+    margin-bottom: 40px;
+  }
+
+  .image-37 {
+    margin-bottom: 20px;
+  }
+
+  .image-38 {
+    margin-bottom: 20px;
+  }
+
+  .evalustion_process {
+    margin-bottom: 60px;
+  }
+
+  .evaluation_screens-v02 {
+    display: none;
+    margin-bottom: 10px;
+  }
+
+  .sketch_1 {
+    display: inline-block;
+  }
+
+  .sketch_2 {
+    display: inline-block;
+  }
+
+  .ideate_1 {
+    display: inline-block;
+  }
+
+  .ideate_2 {
+    display: inline-block;
+  }
+
+  .home_screen {
+    display: inline-block;
+  }
+
+  .tiffin_order_screen {
+    display: none;
+  }
+
+  .usability_test {
+    display: none;
+    margin-bottom: 10px;
+  }
+
+  .location_screen {
+    display: inline-block;
+  }
+
+  .tiffin_schedule_screen {
+    display: inline-block;
+  }
+
+  .visual_design {
+    max-width: 95%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .visual_design_info {
+    margin-bottom: 60px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .image-41 {
+    margin-bottom: 10px;
+  }
+
+  .font {
+    max-width: 85%;
+  }
+
+  .font_v02 {
+    display: none;
+    max-width: 85%;
+  }
+
+  .iconograpghy {
+    max-width: 95%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .icons {
+    max-width: 85%;
+  }
+
+  .image-44 {
+    display: none;
+  }
+
+  .hi-fidelity_prototype {
+    max-width: 95%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .image-45 {
+    margin-bottom: 40px;
+  }
+
+  .order_a_tiffin {
+    max-width: 95%;
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+
+  .order_a_tiffin_info {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .find_a_cook {
+    max-width: 95%;
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+
+  .hire-a-cook_info {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .subscribe_to_mealmate {
+    max-width: 95%;
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+
+  .subscription_info {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .my_profile_options {
+    max-width: 95%;
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+
+  .learning_outcomes_info {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .learning_outcomes_heading {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .end {
+    max-width: 95%;
+    margin-bottom: 20px;
+  }
+
+  .all_rights_reserved {
+    font-family: 'Avenirltstd book', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .rights_reserved {
+    max-width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .project_link {
+    font-family: 'Avenirltstd roman', sans-serif;
+    font-size: 24px;
+  }
+
+  .bottom_nav {
+    max-width: 95%;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+
+  .footer_nav {
+    grid-column-gap: 50px;
+  }
+
+  .iayss_logo {
+    max-width: 95%;
+    margin-bottom: 60px;
+  }
+
+  .iayss_v02 {
+    display: none;
+  }
+
+  .iayss_introduction {
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .the_approach {
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .task_flow_v01 {
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+
+  .task_flow_v02 {
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+
+  .design_process {
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .rouch_sketches {
+    margin-bottom: 10px;
+  }
+
+  .lofi_wireframes {
+    margin-bottom: 10px;
+  }
+
+  .hi-fi_prototypes {
+    margin-top: 0px;
+    margin-bottom: 60px;
+  }
+
+  .border {
+    border-width: 0px 0px 1px;
+  }
+
+  .nda {
+    color: #438bf8;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .product_owner {
+    max-width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .rizee_project_name {
+    font-family: 'Avenirltstd roman', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+  }
+
+  .copyright {
+    font-family: 'Avenirltstd book', sans-serif;
+  }
+
+  .text-block-4 {
+    font-family: Avenirltstd, sans-serif;
+  }
+
+  .linkedin {
+    margin-right: 20px;
+    font-family: 'Fa solid 900', sans-serif;
+    font-weight: 400;
+  }
+
+  .project_iayss {
+    display: none;
+  }
+
+  .name {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  .icon-4 {
+    font-size: 32px;
+  }
+
+  .icon-5 {
+    font-size: 32px;
+  }
+
+  .hmw_question_iayss {
+    max-width: 75%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .paragraph-6 {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .paragraph-7 {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .mealmate_project_name {
+    font-family: Avenirltstd, sans-serif;
+  }
+
+  .hmw_mealmate {
+    margin-bottom: 60px;
+    font-size: 32px;
+    line-height: 50px;
+  }
+
+  .hmw_iayss {
+    margin-bottom: 40px;
+    font-size: 32px;
+    line-height: 50px;
+  }
+
+  .project_rizee {
+    display: none;
+  }
+
+  .rizee_logo {
+    max-width: 95%;
+    margin-bottom: 40px;
+  }
+
+  .rizee_introduction {
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .rizee_borderline {
+    max-width: 95%;
+    margin-bottom: 60px;
+  }
+
+  .rizee_v01 {
+    display: inline-block;
+  }
+
+  .rizee_v02 {
+    display: none;
+  }
+
+  .rizee_border {
+    border-width: 0px 0px 1px;
+  }
+
+  .rizee_website {
+    color: #333;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .iayss_project_name {
+    font-family: 'Avenirltstd roman', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+  }
+
+  .nda_iayss {
+    color: #07b2bd;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .link {
+    text-decoration: none;
+  }
+
+  .art_gallery_logo {
+    max-width: 95%;
+    margin-bottom: 60px;
+  }
+
+  .art_gallery_introduction {
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .project_art_gallery {
+    display: none;
+  }
+
+  .art_project_name {
+    font-family: 'Avenirltstd roman', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+  }
+
+  .art_gallery_border {
+    border-width: 0px 0px 1px;
+  }
+
+  .art_station_link {
+    color: #333;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .art_station {
+    font-family: Avenirltstd, sans-serif;
+    color: #9c6eff;
+    text-decoration: none;
+  }
+
+  .tools_used {
+    font-size: 18px;
+  }
+
+  .mealmate_case_study {
+    margin-bottom: 10px;
+    line-height: 28px;
+  }
+
+  .rizee_case_study {
+    line-height: 28px;
+  }
+
+  .art_gallery_project_info {
+    font-family: Avenirltstd, sans-serif;
+    color: #9c6eff;
+    line-height: 28px;
+  }
+
+  .iayss_case_study_info {
+    line-height: 28px;
+  }
+
+  .topographic-terrain-1 {
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 100px;
+  }
+
+  .topographic-terrain-2 {
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 100px;
+  }
+
+  .raspberry {
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 100px;
+  }
+
+  .soviet_nostalgia {
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 100px;
+  }
+
+  .redbone {
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 100px;
+  }
+
+  .real_treasure {
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 100px;
+  }
+
+  .black_mirror {
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 100px;
+  }
+
+  .concretism {
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 100px;
+  }
+
+  .inevitable {
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 100px;
+  }
+
+  .any_color_you_like {
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 100px;
+  }
+
+  .villa_maria_cgi {
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 100px;
+  }
+
+  .daft_punk_cgi {
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 100px;
+  }
+
+  .asteroid_cgi {
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 100px;
+  }
+
+  .lamborghini_cgi {
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 100px;
+  }
+
+  .the_problem_mealmate {
+    max-width: 95%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .learning_outcome_mealmate {
+    max-width: 95%;
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+
+  .the_design_challenge_iayss {
+    display: none;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .learning_outcome_rizee {
+    max-width: 95%;
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+
+  .learning_outcome_art_gallery {
+    max-width: 95%;
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+
+  .learning_outcome_iayss {
+    max-width: 95%;
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+
+  .learning_outcomes_info_rizee {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .learning_outcomes_info_iayss {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .magnify {
+    margin-bottom: 10px;
+  }
+
+  .raspberry_v01 {
+    display: block;
+  }
+
+  .raspberry_v02 {
+    display: none;
+  }
+
+  .soviet_v01 {
+    display: inline-block;
+  }
+
+  .soviet_v02 {
+    display: none;
+  }
+
+  .redbone_v02 {
+    display: none;
+  }
+
+  .my_introduction {
+    max-width: 95%;
+    margin-top: 60px;
+    margin-bottom: 80px;
+  }
+
+  .designer_info {
+    font-size: 32px;
+    line-height: 50px;
+    font-weight: 700;
+  }
+
+  .text-span-10 {
+    font-size: 32px;
+    line-height: 50px;
+  }
+
+  .mealmate_project_selection {
+    max-width: 95%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .grid-4 {
+    grid-column-gap: 20px;
+  }
+
+  .mealmate_v03 {
+    display: inline-block;
+  }
+
+  .rizee_v03 {
+    display: inline-block;
+  }
+
+  .mealmate_v04 {
+    display: none;
+  }
+
+  .rizee_v04 {
+    display: none;
+  }
+
+  .iayss_v04 {
+    display: none;
+  }
+
+  .link_to_rizee_v02 {
+    display: none;
+  }
+
+  .link_to_iayss_v02 {
+    display: none;
+  }
+
+  .art_gallery_v04 {
+    display: none;
+  }
+
+  .bottom_nav_home {
+    max-width: 95%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+  }
+
+  .mealmate_project_selection_2 {
+    max-width: 95%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .get_in_touch {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    font-family: 'Avenirltstd roman', sans-serif;
+    line-height: 28px;
+    text-align: center;
+  }
+
+  .mealmate_heading {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .art_gallery_heading {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .iayss_heading {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .rizee_heading {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .iayss_heading_v02 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .rizee_heading_v02 {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .about_me {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  .about_borderline {
+    max-width: 95%;
+  }
+
+  .about_border {
+    border-width: 0px 0px 1px;
+    border-bottom-color: #000;
+  }
+
+  .grid-5 {
+    grid-column-gap: 25px;
+    -ms-grid-columns: 0.5fr 1fr;
+    grid-template-columns: 0.5fr 1fr;
+  }
+
+  .gmail {
+    margin-right: 0px;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    font-weight: 400;
+  }
+
+  .text-span-12 {
+    font-size: 24px;
+  }
+
+  .mail_icon {
+    display: inline-block;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    font-family: 'Fa solid 900', sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+  }
+
+  .image-56 {
+    margin-top: 8px;
+  }
+
+  .quick_intro {
+    margin-bottom: 20px;
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 700;
+  }
+
+  .social_media {
+    margin-bottom: 0px;
+    line-height: 28px;
+  }
+
+  .reach_out {
+    margin-top: 0px;
+    margin-bottom: 40px;
+    font-size: 32px;
+    line-height: 50px;
+    font-weight: 700;
+  }
+
+  .my_inspiration {
+    max-width: 95%;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .project_details {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+
+  .rizee_intro {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .mealmate_intro_paragraph {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .quick_info_interviews {
+    margin-bottom: 40px;
+  }
+
+  .quick_info_anlysis {
+    margin-bottom: 40px;
+  }
+
+  .evaluation_info {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .usability_info {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .approach_info {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .icon_social_media {
+    display: inline-block;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    font-family: 'Fa brands 400', sans-serif;
+    line-height: 28px;
+    text-align: center;
+  }
+
+  .instagram {
+    margin-right: 30px;
+  }
+
+  .linked_in {
+    margin-right: 30px;
+  }
+
+  .artstation {
+    margin-right: 30px;
+  }
+
+  .contact_me {
+    max-width: 95%;
+    padding-top: 0px;
+    padding-bottom: 60px;
+  }
+
+  .email {
+    max-width: 100%;
+  }
+
+  .inspiration {
+    margin-bottom: 40px;
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 700;
+  }
+
+  .grid-6 {
+    display: none;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+  }
+
+  .soviet_architecture {
+    margin-bottom: 40px;
+  }
+
+  .dieter_rams_design {
+    display: inline-block;
+    margin-bottom: 40px;
+  }
+
+  .fb_technology {
+    display: inline-block;
+    margin-bottom: 40px;
+  }
+
+  .quick_info_art_gallery {
+    margin-bottom: 40px;
+  }
+
+  .social-media {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .about {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-bottom-color: hsla(0, 0%, 98%, 0.35);
+    color: #fafafa;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .about.w--current {
+    color: #438bf8;
+  }
+
+  .work {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-bottom-color: hsla(0, 0%, 98%, 0.35);
+    color: #fafafa;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .work.w--current:hover {
+    border-bottom-style: solid;
+  }
+
+  .resume {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: #fafafa;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .project {
+    margin-left: 0px;
+    padding: 10px 0px;
+  }
+
+  .navbar {
+    margin-bottom: 80px;
+  }
+
+  .home {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+  }
+
+  .nav-menu {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .menu-button {
+    padding-bottom: 20px;
+  }
+
+  .menu-button.w--open {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .mealmate_v01 {
+    display: none;
+  }
+
+  .mealmate_v02 {
+    display: inline-block;
+    max-width: 93%;
+    margin-left: 20px;
+  }
+
+  .project_mealmate {
+    display: none;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .mealmate_logo {
+    max-width: 100%;
+    margin-bottom: 60px;
+  }
+
+  .mealmate_introduction {
+    max-width: 93%;
+  }
+
+  .heading-2 {
+    margin-top: 0px;
+    font-size: 24px;
+  }
+
+  .paragraph {
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .columns {
+    margin-bottom: 20px;
+  }
+
+  .paragraph-2 {
+    line-height: 28px;
+  }
+
+  .paragraph-4 {
+    margin-bottom: 10px;
+    line-height: 28px;
+  }
+
+  .column {
+    margin-bottom: 20px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .column-2 {
+    margin-bottom: 20px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .line {
+    border-bottom-width: 1px;
+    border-bottom-color: #04af34;
+  }
+
+  .the_problem {
+    max-width: 93%;
+    margin-bottom: 0px;
+  }
+
+  .the_goal {
+    max-width: 93%;
+  }
+
+  .borderline {
+    max-width: 93%;
+    margin-bottom: 60px;
+  }
+
+  .design_thinking {
+    max-width: 93%;
+  }
+
+  .approach {
+    margin-bottom: 20px;
+  }
+
+  .image-8 {
+    display: none;
+  }
+
+  .image-9 {
+    display: none;
+  }
+
+  .image-10 {
+    display: inline-block;
+  }
+
+  .empathize_process {
+    max-width: 93%;
+    margin-bottom: 0px;
+  }
+
+  .image-11 {
+    margin-bottom: 10px;
+  }
+
+  .image-12 {
+    margin-bottom: 0px;
+  }
+
+  .quick_info {
+    margin-bottom: 40px;
+  }
+
+  .questions {
+    margin-bottom: 10px;
+  }
+
+  .video {
+    margin-bottom: 10px;
+  }
+
+  .themantic-analysis {
+    max-width: 93%;
+  }
+
+  .heading-2-v02 {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+
+  .define_process {
+    max-width: 93%;
+  }
+
+  .image-14 {
+    display: none;
+  }
+
+  .image-17 {
+    margin-bottom: 40px;
+  }
+
+  .image-19 {
+    max-width: 100%;
+  }
+
+  .image-20 {
+    max-width: 100%;
+  }
+
+  .ideate_process {
+    max-width: 93%;
+  }
+
+  .ideate_info {
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .ideate_sketches_v02 {
+    margin-bottom: 10px;
+  }
+
+  .image-22 {
+    margin-bottom: 20px;
+  }
+
+  .image-23 {
+    margin-bottom: 40px;
+  }
+
+  .sitemap {
+    font-size: 18px;
+  }
+
+  .sitemap_info {
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .instruction {
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .intruction {
+    display: none;
+    max-width: 100%;
+  }
+
+  .sitemap_process {
+    max-width: 93%;
+    margin-bottom: 10px;
+  }
+
+  .prototype_process {
+    max-width: 93%;
+  }
+
+  .prototype_info {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .image-25 {
+    max-width: 100%;
+  }
+
+  .image-26 {
+    max-width: 100%;
+  }
+
+  .image-28 {
+    display: none;
+  }
+
+  .image-33 {
+    display: inline-block;
+    margin-bottom: 40px;
+  }
+
+  .image-34 {
+    display: inline-block;
+    margin-bottom: 40px;
+  }
+
+  .image-35 {
+    display: inline-block;
+    margin-bottom: 40px;
+  }
+
+  .image-36 {
+    display: inline-block;
+    margin-bottom: 60px;
+  }
+
+  .image-37 {
+    margin-bottom: 20px;
+  }
+
+  .image-38 {
+    margin-bottom: 20px;
+  }
+
+  .evalustion_process {
+    display: none;
+  }
+
+  .evaluation_screens-v02 {
+    display: inline-block;
+  }
+
+  .sketch_1 {
+    margin-bottom: 40px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .sketch_2 {
+    margin-bottom: 10px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .ideate_1 {
+    margin-bottom: 40px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .ideate_2 {
+    margin-bottom: 10px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .home_screen {
+    margin-bottom: 20px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .tiffin_order_screen {
+    display: inline-block;
+    margin-bottom: 40px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .usability_test {
+    display: inline-block;
+  }
+
+  .location_screen {
+    margin-bottom: 20px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .tiffin_schedule_screen {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .image-39 {
+    margin-bottom: 20px;
+  }
+
+  .image-40 {
+    margin-bottom: 20px;
+  }
+
+  .usability_test_v02 {
+    display: none;
+  }
+
+  .visual_design {
+    max-width: 93%;
+  }
+
+  .visual_design_info {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .image-41 {
+    display: none;
+  }
+
+  .color_scheme {
+    display: inline-block;
+    margin-bottom: 40px;
+  }
+
+  .logo_design {
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+
+  .font {
+    display: none;
+  }
+
+  .font_v02 {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .iconograpghy {
+    max-width: 93%;
+  }
+
+  .icons {
+    display: none;
+  }
+
+  .image-44 {
+    display: inline-block;
+    margin-bottom: 60px;
+  }
+
+  .hi-fidelity_prototype {
+    max-width: 93%;
+  }
+
+  .image-45 {
+    margin-bottom: 20px;
+  }
+
+  .order_a_tiffin {
+    max-width: 93%;
+  }
+
+  .order_a_tiffin_info {
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .find_a_cook {
+    max-width: 93%;
+  }
+
+  .hire-a-cook_info {
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .subscribe_to_mealmate {
+    max-width: 93%;
+  }
+
+  .subscription_info {
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .my_profile_options {
+    max-width: 93%;
+  }
+
+  .learning_outcomes_info {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .learning_outcomes_heading {
+    font-size: 20px;
+  }
+
+  .end {
+    max-width: 93%;
+    margin-bottom: 20px;
+  }
+
+  .all_rights_reserved {
+    margin-bottom: 40px;
+    font-family: 'Avenirltstd book', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .rights_reserved {
+    max-width: 100%;
+    margin-bottom: 40px;
+    font-family: 'PT Serif', serif;
+  }
+
+  .project_link {
+    font-size: 24px;
+  }
+
+  .bottom_nav {
+    max-width: 93%;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+
+  .footer_nav {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    grid-auto-flow: column;
+    grid-column-gap: 35px;
+    grid-row-gap: 35px;
+    -ms-grid-rows: auto 1fr minmax(auto, 1fr) minmax(auto, 1fr);
+    grid-template-rows: auto 1fr minmax(auto, 1fr) minmax(auto, 1fr);
+  }
+
+  .iayss_logo {
+    max-width: 100%;
+    margin-bottom: 60px;
+  }
+
+  .iayss_v01 {
+    display: none;
+  }
+
+  .iayss_v02 {
+    display: inline-block;
+    max-width: 93%;
+    margin-left: 20px;
+  }
+
+  .iayss_introduction {
+    max-width: 93%;
+  }
+
+  .the_approach {
+    max-width: 93%;
+  }
+
+  .design_process {
+    max-width: 93%;
+    margin-bottom: 40px;
+  }
+
+  .rouch_sketches {
+    margin-bottom: 10px;
+  }
+
+  .lofi_wireframes {
+    margin-bottom: 0px;
+  }
+
+  .hi-fi_prototypes {
+    max-width: 93%;
+    margin-bottom: 60px;
+  }
+
+  .border {
+    border-bottom-width: 1px;
+  }
+
+  .nda {
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .product_owner {
+    max-width: 100%;
+    margin-bottom: 40px;
+    font-family: 'PT Serif', serif;
+  }
+
+  .rizee_project_name {
+    font-family: 'Avenirltstd roman', sans-serif;
+    font-size: 22px;
+  }
+
+  .iayss_borderline {
+    max-width: 93%;
+  }
+
+  .copyright {
+    font-family: 'Avenirltstd book', sans-serif;
+  }
+
+  .text-block-4 {
+    font-family: Avenirltstd, sans-serif;
+  }
+
+  .linkedin {
+    font-weight: 400;
+  }
+
+  .name {
+    margin-left: 0px;
+    padding: 25px 20px;
+  }
+
+  .icon-4 {
+    font-size: 32px;
+  }
+
+  .icon-5 {
+    font-size: 32px;
+  }
+
+  .hmw_question_iayss {
+    max-width: 85%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+
+  .paragraph-6 {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .paragraph-7 {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .mealmate_project_name {
+    font-family: Avenirltstd, sans-serif;
+  }
+
+  .hmw_mealmate {
+    margin-bottom: 40px;
+    font-size: 32px;
+    line-height: 50px;
+  }
+
+  .hmw_iayss {
+    margin-bottom: 40px;
+    font-size: 32px;
+    line-height: 50px;
+  }
+
+  .rizee_logo {
+    max-width: 100%;
+    margin-bottom: 60px;
+  }
+
+  .rizee_introduction {
+    max-width: 93%;
+  }
+
+  .rizee_borderline {
+    max-width: 93%;
+    margin-bottom: 60px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .rizee_v01 {
+    display: none;
+  }
+
+  .rizee_v02 {
+    display: inline-block;
+    max-width: 93%;
+    margin-left: 20px;
+  }
+
+  .rizee_border {
+    border-bottom-width: 1px;
+  }
+
+  .rizee_website {
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .iayss_project_name {
+    font-family: 'Avenirltstd roman', sans-serif;
+    font-size: 22px;
+  }
+
+  .nda_iayss {
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .link {
+    text-decoration: none;
+  }
+
+  .art_gallery_logo {
+    max-width: 100%;
+    margin-bottom: 60px;
+  }
+
+  .art_gallery_introduction {
+    max-width: 93%;
+  }
+
+  .art_gallery_borderline {
+    max-width: 93%;
+  }
+
+  .art_project_name {
+    font-family: 'Avenirltstd roman', sans-serif;
+    font-size: 22px;
+  }
+
+  .art_gallery_border {
+    border-bottom-width: 1px;
+  }
+
+  .art_station_link {
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .art_gallery_v01 {
+    display: none;
+  }
+
+  .art_gallery_v02 {
+    display: inline-block;
+    max-width: 93%;
+    margin-left: 20px;
+  }
+
+  .column-5 {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .mealmate_case_study {
+    line-height: 28px;
+  }
+
+  .rizee_case_study {
+    line-height: 28px;
+  }
+
+  .art_gallery_project_info {
+    font-family: Avenirltstd, sans-serif;
+    color: #9c6eff;
+    line-height: 28px;
+  }
+
+  .iayss_case_study_info {
+    line-height: 28px;
+  }
+
+  .topographic-terrain-1 {
+    display: block;
+    max-width: 93%;
+  }
+
+  .topographic-terrain-2 {
+    display: block;
+    max-width: 93%;
+  }
+
+  .raspberry {
+    display: block;
+    max-width: 93%;
+  }
+
+  .soviet_nostalgia {
+    display: block;
+    max-width: 93%;
+  }
+
+  .redbone {
+    display: block;
+    max-width: 93%;
+  }
+
+  .real_treasure {
+    display: block;
+    max-width: 93%;
+  }
+
+  .black_mirror {
+    display: block;
+    max-width: 93%;
+  }
+
+  .concretism {
+    display: block;
+    max-width: 93%;
+  }
+
+  .inevitable {
+    display: block;
+    max-width: 93%;
+  }
+
+  .any_color_you_like {
+    display: block;
+    max-width: 93%;
+  }
+
+  .villa_maria_cgi {
+    display: block;
+    max-width: 93%;
+  }
+
+  .daft_punk_cgi {
+    display: block;
+    max-width: 93%;
+  }
+
+  .asteroid_cgi {
+    display: block;
+    max-width: 93%;
+  }
+
+  .lamborghini_cgi {
+    display: block;
+    max-width: 93%;
+  }
+
+  .the_problem_mealmate {
+    max-width: 93%;
+  }
+
+  .learning_outcome_mealmate {
+    max-width: 93%;
+  }
+
+  .the_design_challenge_iayss {
+    display: none;
+    max-width: 93%;
+  }
+
+  .learning_outcome_rizee {
+    max-width: 93%;
+  }
+
+  .learning_outcome_art_gallery {
+    max-width: 93%;
+  }
+
+  .learning_outcome_iayss {
+    max-width: 93%;
+  }
+
+  .learning_outcomes_info_rizee {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .learning_outcomes_info_iayss {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .magnify {
+    display: none;
+    margin-bottom: 10px;
+  }
+
+  .magnify.redbone_v01 {
+    display: inline-block;
+  }
+
+  .soviet_v01 {
+    display: none;
+  }
+
+  .soviet_v02 {
+    display: inline-block;
+  }
+
+  .redbone_v01 {
+    display: none;
+  }
+
+  .redbone_v02 {
+    display: inline-block;
+  }
+
+  .my_introduction {
+    max-width: 93%;
+    margin-top: 40px;
+    margin-bottom: 60px;
+  }
+
+  .designer_info {
+    margin-top: 0px;
+    font-size: 32px;
+    line-height: 50px;
+  }
+
+  .text-span-10 {
+    font-size: 32px;
+    line-height: 50px;
+  }
+
+  .text-span-11 {
+    font-size: 32px;
+  }
+
+  .mealmate_project_selection {
+    max-width: 93%;
+    margin-bottom: 100px;
+  }
+
+  .grid-4 {
+    display: none;
+  }
+
+  .mealmate_v03 {
+    display: none;
+  }
+
+  .art_gallery_v03 {
+    display: none;
+  }
+
+  .mealmate_v04 {
+    display: inline-block;
+  }
+
+  .rizee_v04 {
+    display: inline-block;
+  }
+
+  .iayss_v04 {
+    display: inline-block;
+  }
+
+  .link_to_rizee_v02 {
+    position: relative;
+    display: block;
+    margin-bottom: 100px;
+    -webkit-transition: all 200ms ease;
+    transition: all 200ms ease;
+    text-align: right;
+  }
+
+  .link_to_rizee_v02:hover {
+    box-shadow: 0 3px 10px 2px rgba(0, 0, 0, 0.25);
+    -webkit-transform: scale(1.012);
+    -ms-transform: scale(1.012);
+    transform: scale(1.012);
+  }
+
+  .link_to_iayss_v02 {
+    position: relative;
+    display: block;
+    -webkit-transition: all 200ms ease;
+    transition: all 200ms ease;
+  }
+
+  .link_to_iayss_v02:hover {
+    box-shadow: 0 3px 10px 2px rgba(0, 0, 0, 0.25);
+    -webkit-transform: scale(1.012);
+    -ms-transform: scale(1.012);
+    transform: scale(1.012);
+  }
+
+  .art_gallery_v04 {
+    display: inline-block;
+  }
+
+  .bottom_nav_home {
+    max-width: 93%;
+    margin-bottom: 0px;
+  }
+
+  .mealmate_project_selection_2 {
+    max-width: 93%;
+    margin-bottom: 100px;
+  }
+
+  .mealmate_heading {
+    margin-top: 40%;
+    font-size: 24px;
+  }
+
+  .art_gallery_heading {
+    margin-top: 40%;
+    font-size: 24px;
+  }
+
+  .iayss_heading {
+    margin-top: 40%;
+    font-size: 24px;
+  }
+
+  .rizee_heading {
+    margin-top: 40%;
+    font-size: 24px;
+  }
+
+  .disclosure_iayss_v02 {
+    display: inline-block;
+    -webkit-transition-duration: 200ms;
+    transition-duration: 200ms;
+  }
+
+  .iayss_heading_v02 {
+    margin-top: 40%;
+    font-size: 24px;
+  }
+
+  .rizee_heading_v02 {
+    margin-top: 40%;
+    font-size: 24px;
+  }
+
+  .disclosure_rizee_v02 {
+    -webkit-transition-duration: 200ms;
+    transition-duration: 200ms;
+  }
+
+  .hello {
+    max-width: 93%;
+  }
+
+  .about_me {
+    max-width: 93%;
+  }
+
+  .about_borderline {
+    max-width: 93%;
+  }
+
+  .about_border {
+    border-bottom-width: 1px;
+  }
+
+  .grid-5 {
+    grid-column-gap: 0px;
+    grid-row-gap: 40px;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+  }
+
+  .gmail {
+    font-weight: 400;
+  }
+
+  .quick_intro {
+    margin-top: 0px;
+    line-height: 40px;
+  }
+
+  .social_media {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 28px;
+  }
+
+  .reach_out {
+    margin-top: 0px;
+    margin-bottom: 40px;
+    font-size: 28px;
+    line-height: 50px;
+  }
+
+  .my_inspiration {
+    max-width: 93%;
+  }
+
+  .rizee_intro {
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .mealmate_intro_paragraph {
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .quick_info_interviews {
+    margin-bottom: 40px;
+  }
+
+  .quick_info_anlysis {
+    margin-bottom: 40px;
+  }
+
+  .evaluation_info {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .usability_info {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .approach_info {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .instagram {
+    margin-right: 30px;
+  }
+
+  .linked_in {
+    margin-right: 30px;
+  }
+
+  .artstation {
+    margin-right: 30px;
+  }
+
+  .contact_me {
+    max-width: 93%;
+    padding-bottom: 60px;
+  }
+
+  .email {
+    max-width: 100%;
+  }
+
+  .inspiration {
+    margin-top: 0px;
+    margin-bottom: 40px;
+    line-height: 40px;
+  }
+
+  .dieter_rams_design {
+    display: inline-block;
+  }
+
+  .fb_technology {
+    display: inline-block;
+  }
+
+  .quick_info_art_gallery {
+    margin-bottom: 40px;
+  }
+
+  .social-media {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .about {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-bottom-color: hsla(0, 0%, 98%, 0.35);
+    color: #fafafa;
+    font-size: 24px;
+  }
+
+  .work {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-bottom-color: hsla(0, 0%, 98%, 0.35);
+    color: #fafafa;
+    font-size: 24px;
+  }
+
+  .resume {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: #fafafa;
+    font-size: 24px;
+  }
+
+  .project {
+    padding: 0px;
+  }
+
+  .navbar {
+    margin-bottom: 60px;
+  }
+
+  .home {
+    margin-top: 0px;
+    padding: 0px;
+  }
+
+  .nav-menu {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .menu-button {
+    padding-bottom: 20px;
+  }
+
+  .menu-button.w--open {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .mealmate_v01 {
+    display: none;
+  }
+
+  .mealmate_v02 {
+    max-width: 100%;
+    margin-left: 0px;
+  }
+
+  .project_mealmate {
+    display: none;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .mealmate_logo {
+    max-width: 90%;
+    margin-bottom: 60px;
+  }
+
+  .mealmate_introduction {
+    max-width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .heading-2 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+
+  .paragraph {
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+  }
+
+  .columns {
+    margin-bottom: 20px;
+  }
+
+  .paragraph-2 {
+    line-height: 28px;
+  }
+
+  .heading-4 {
+    margin-bottom: 20px;
+  }
+
+  .heading-5 {
+    margin-bottom: 20px;
+  }
+
+  .paragraph-4 {
+    margin-bottom: 10px;
+  }
+
+  .column {
+    display: inline-block;
+    margin-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .column-2 {
+    margin-bottom: 20px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .line {
+    border-bottom-width: 1px;
+  }
+
+  .the_problem {
+    max-width: 90%;
+  }
+
+  .the_goal {
+    max-width: 90%;
+  }
+
+  .borderline {
+    max-width: 90%;
+    margin-bottom: 60px;
+  }
+
+  .design_thinking {
+    max-width: 90%;
+    margin-bottom: 40px;
+  }
+
+  .approach {
+    margin-bottom: 20px;
+  }
+
+  .image-8 {
+    display: none;
+  }
+
+  .image-9 {
+    display: inline-block;
+  }
+
+  .image-10 {
+    display: none;
+  }
+
+  .empathize_process {
+    max-width: 90%;
+  }
+
+  .image-11 {
+    margin-bottom: 10px;
+  }
+
+  .image-12 {
+    margin-bottom: 0px;
+  }
+
+  .quick_info {
+    margin-bottom: 40px;
+    font-size: 12px;
+  }
+
+  .questions {
+    margin-bottom: 10px;
+  }
+
+  .video {
+    margin-bottom: 10px;
+  }
+
+  .themantic-analysis {
+    max-width: 90%;
+  }
+
+  .heading-2-v02 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+
+  .define_process {
+    max-width: 90%;
+  }
+
+  .image-14 {
+    display: none;
+  }
+
+  .personas {
+    margin-bottom: 10px;
+  }
+
+  .ideate_process {
+    max-width: 90%;
+  }
+
+  .ideate_sketches {
+    display: none;
+  }
+
+  .ideate_info {
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .ideate_sketches_v02 {
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+
+  .image-23 {
+    margin-bottom: 40px;
+  }
+
+  .sitemap {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+
+  .sitemap_info {
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .instruction {
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .intruction {
+    display: none;
+    max-width: 100%;
+  }
+
+  .sitemap_process {
+    max-width: 90%;
+    margin-bottom: 10px;
+  }
+
+  .prototype_process {
+    max-width: 90%;
+  }
+
+  .prototype_sketches {
+    display: none;
+  }
+
+  .prototype_sketches_v02 {
+    display: inline-block;
+  }
+
+  .prototype_info {
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .image-25 {
+    max-width: 100%;
+  }
+
+  .image-26 {
+    max-width: 100%;
+  }
+
+  .image-28 {
+    display: none;
+  }
+
+  .image-33 {
+    display: inline-block;
+  }
+
+  .image-34 {
+    display: inline-block;
+  }
+
+  .image-35 {
+    display: inline-block;
+  }
+
+  .image-36 {
+    display: inline-block;
+  }
+
+  .image-37 {
+    margin-bottom: 20px;
+  }
+
+  .image-38 {
+    margin-bottom: 20px;
+  }
+
+  .evalustion_process {
+    display: none;
+  }
+
+  .sketch_1 {
+    margin-bottom: 20px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .sketch_2 {
+    margin-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .ideate_1 {
+    margin-bottom: 20px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .ideate_2 {
+    margin-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .home_screen {
+    margin-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .tiffin_order_screen {
+    display: inline-block;
+    margin-bottom: 40px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .usability_test {
+    margin-bottom: 0px;
+  }
+
+  .location_screen {
+    margin-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .tiffin_schedule_screen {
+    display: inline-block;
+    margin-bottom: 40px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .image-39 {
+    margin-bottom: 20px;
+  }
+
+  .image-40 {
+    margin-bottom: 20px;
+  }
+
+  .visual_design {
+    max-width: 90%;
+    margin-bottom: 40px;
+  }
+
+  .visual_design_info {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .iconograpghy {
+    max-width: 90%;
+  }
+
+  .image-44 {
+    margin-bottom: 40px;
+  }
+
+  .hi-fidelity_prototype {
+    max-width: 90%;
+  }
+
+  .image-45 {
+    display: none;
+  }
+
+  .order_a_tiffin {
+    max-width: 90%;
+    margin-bottom: 40px;
+  }
+
+  .order_a_tiffin_info {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .find_a_cook {
+    max-width: 90%;
+    margin-bottom: 40px;
+  }
+
+  .hire-a-cook_info {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .subscribe_to_mealmate {
+    max-width: 90%;
+    margin-bottom: 40px;
+  }
+
+  .subscription_info {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .my_profile_options {
+    max-width: 90%;
+    margin-bottom: 40px;
+  }
+
+  .learning_outcomes_info {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .learning_outcomes_heading {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+
+  .end {
+    max-width: 90%;
+    margin-bottom: 10px;
+  }
+
+  .all_rights_reserved {
+    margin-bottom: 20px;
+    font-family: 'Avenirltstd book', sans-serif;
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 400;
+  }
+
+  .rights_reserved {
+    max-width: 100%;
+    font-family: 'Avenirltstd roman', sans-serif;
+  }
+
+  .project_link {
+    font-family: 'Avenirltstd roman', sans-serif;
+    font-size: 22px;
+  }
+
+  .bottom_nav {
+    max-width: 90%;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+
+  .footer_nav {
+    grid-auto-flow: row;
+    grid-column-gap: 25px;
+    grid-row-gap: 35px;
+    grid-template-areas: "Area";
+    -ms-grid-columns: 1fr 25px 1fr 25px 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    -ms-grid-rows: auto 35px auto 35px minmax(auto, 1fr) 35px minmax(auto, 1fr);
+    grid-template-rows: auto auto minmax(auto, 1fr) minmax(auto, 1fr);
+  }
+
+  .iayss_logo {
+    max-width: 90%;
+    margin-bottom: 60px;
+  }
+
+  .iayss_v02 {
+    max-width: 100%;
+    margin-left: 0px;
+  }
+
+  .iayss_introduction {
+    max-width: 90%;
+  }
+
+  .the_approach {
+    max-width: 90%;
+    margin-bottom: 40px;
+  }
+
+  .task_flow_v01 {
+    margin-bottom: 20px;
+  }
+
+  .task_flow_v02 {
+    margin-bottom: 20px;
+  }
+
+  .design_process {
+    max-width: 90%;
+    margin-bottom: 40px;
+  }
+
+  .rouch_sketches {
+    margin-bottom: 10px;
+  }
+
+  .lofi_wireframes {
+    margin-bottom: 10px;
+  }
+
+  .hi-fi_prototypes {
+    max-width: 90%;
+    margin-bottom: 60px;
+  }
+
+  .border {
+    border-bottom-width: 1px;
+  }
+
+  .nda {
+    margin-bottom: 40px;
+    color: #438bf8;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .product_owner {
+    max-width: 100%;
+    font-family: 'Avenirltstd roman', sans-serif;
+  }
+
+  .rizee_project_name {
+    font-family: 'Avenirltstd roman', sans-serif;
+    font-size: 22px;
+  }
+
+  .iayss_borderline {
+    max-width: 90%;
+    margin-bottom: 60px;
+  }
+
+  .text-block-4 {
+    font-family: Avenirltstd, sans-serif;
+  }
+
+  .text-block-5 {
+    font-size: 20px;
+  }
+
+  .text-block-6 {
+    font-size: 20px;
+  }
+
+  .text-block-7 {
+    font-size: 20px;
+  }
+
+  .text-block-8 {
+    font-size: 20px;
+  }
+
+  .text-block-9 {
+    font-size: 20px;
+  }
+
+  .text-block-10 {
+    font-size: 20px;
+  }
+
+  .text-block-11 {
+    font-size: 20px;
+  }
+
+  .text-block-12 {
+    font-size: 20px;
+  }
+
+  .name {
+    padding: 25px 20px;
+  }
+
+  .icon-4 {
+    font-size: 32px;
+  }
+
+  .icon-5 {
+    font-size: 32px;
+  }
+
+  .hmw_question_iayss {
+    max-width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .paragraph-6 {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .paragraph-7 {
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .mealmate_project_name {
+    font-family: Avenirltstd, sans-serif;
+  }
+
+  .hmw_mealmate {
+    margin-bottom: 40px;
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .hmw_iayss {
+    margin-bottom: 40px;
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .rizee_logo {
+    max-width: 90%;
+    margin-bottom: 60px;
+  }
+
+  .rizee_introduction {
+    max-width: 90%;
+  }
+
+  .rizee_borderline {
+    max-width: 90%;
+    margin-bottom: 60px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .rizee_v02 {
+    max-width: 100%;
+    margin-left: 0px;
+  }
+
+  .rizee_border {
+    border-bottom-width: 1px;
+  }
+
+  .rizee_website {
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .iayss_project_name {
+    font-family: 'Avenirltstd roman', sans-serif;
+    font-size: 22px;
+  }
+
+  .nda_iayss {
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .link {
+    text-decoration: none;
+  }
+
+  .art_gallery_logo {
+    max-width: 90%;
+    margin-top: 0px;
+    margin-bottom: 60px;
+  }
+
+  .art_gallery_introduction {
+    max-width: 90%;
+  }
+
+  .art_gallery_borderline {
+    max-width: 90%;
+    margin-bottom: 80px;
+  }
+
+  .art_project_name {
+    font-family: 'Avenirltstd roman', sans-serif;
+    font-size: 22px;
+  }
+
+  .art_gallery_border {
+    border-bottom-width: 1px;
+    border-bottom-color: #9c6eff;
+  }
+
+  .art_station_link {
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .rizee_site_link {
+    text-decoration: none;
+  }
+
+  .art_gallery_v02 {
+    max-width: 100%;
+    margin-left: 0px;
+  }
+
+  .tools_used {
+    margin-top: 0px;
+  }
+
+  .column-5 {
+    padding-right: 0px;
+    padding-left: 0px;
+    text-align: left;
+  }
+
+  .mealmate_case_study {
+    margin-bottom: 10px;
+    line-height: 28px;
+  }
+
+  .rizee_case_study {
+    margin-bottom: 10px;
+    font-family: Avenirltstd, sans-serif;
+    color: #438bf8;
+    line-height: 28px;
+  }
+
+  .art_gallery_project_info {
+    margin-bottom: 10px;
+    font-family: Avenirltstd, sans-serif;
+    color: #9c6eff;
+    line-height: 28px;
+  }
+
+  .iayss_case_study_info {
+    margin-bottom: 10px;
+    line-height: 28px;
+  }
+
+  .artwork_title {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .art_name {
+    margin-bottom: 0px;
+    font-family: Avenirltstd, sans-serif;
+    font-size: 14px;
+  }
+
+  .topographic-terrain-1 {
+    display: block;
+    max-width: 90%;
+    margin-bottom: 100px;
+  }
+
+  .topographic-terrain-2 {
+    display: block;
+    max-width: 90%;
+    margin-bottom: 100px;
+  }
+
+  .raspberry {
+    display: block;
+    max-width: 90%;
+    margin-bottom: 100px;
+  }
+
+  .soviet_nostalgia {
+    display: block;
+    max-width: 90%;
+    margin-bottom: 100px;
+  }
+
+  .redbone {
+    display: block;
+    max-width: 90%;
+    margin-bottom: 100px;
+  }
+
+  .real_treasure {
+    display: block;
+    max-width: 90%;
+    margin-bottom: 100px;
+  }
+
+  .black_mirror {
+    display: block;
+    max-width: 90%;
+    margin-bottom: 100px;
+  }
+
+  .concretism {
+    display: block;
+    max-width: 90%;
+    margin-bottom: 100px;
+  }
+
+  .inevitable {
+    display: block;
+    max-width: 90%;
+    margin-bottom: 100px;
+  }
+
+  .any_color_you_like {
+    display: block;
+    max-width: 90%;
+    margin-bottom: 100px;
+  }
+
+  .villa_maria_cgi {
+    display: block;
+    max-width: 90%;
+    margin-bottom: 100px;
+  }
+
+  .daft_punk_cgi {
+    display: block;
+    max-width: 90%;
+    margin-bottom: 100px;
+  }
+
+  .asteroid_cgi {
+    display: block;
+    max-width: 90%;
+    margin-bottom: 100px;
+  }
+
+  .lamborghini_cgi {
+    display: block;
+    max-width: 90%;
+    margin-bottom: 60px;
+  }
+
+  .the_problem_mealmate {
+    max-width: 90%;
+  }
+
+  .learning_outcome_mealmate {
+    max-width: 90%;
+    margin-bottom: 40px;
+  }
+
+  .the_design_challenge_iayss {
+    display: none;
+    max-width: 90%;
+  }
+
+  .learning_outcome_rizee {
+    max-width: 90%;
+    margin-bottom: 40px;
+  }
+
+  .learning_outcome_art_gallery {
+    max-width: 90%;
+    margin-bottom: 40px;
+  }
+
+  .learning_outcome_iayss {
+    max-width: 90%;
+    margin-bottom: 40px;
+  }
+
+  .learning_outcomes_info_rizee {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .learning_outcomes_info_iayss {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .magnify {
+    display: inline-block;
+  }
+
+  .magnify.sitemap {
+    display: none;
+  }
+
+  .soviet_v01 {
+    display: none;
+  }
+
+  .my_introduction {
+    max-width: 90%;
+    margin-top: 40px;
+    margin-bottom: 60px;
+  }
+
+  .designer_info {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 32px;
+    line-height: 50px;
+  }
+
+  .text-span-10 {
+    font-size: 32px;
+    line-height: 50px;
+  }
+
+  .text-span-11 {
+    display: none;
+  }
+
+  .mealmate_project_selection {
+    max-width: 90%;
+    margin-bottom: 80px;
+  }
+
+  .mealmate_v03 {
+    display: none;
+  }
+
+  .link_to_rizee_v02 {
+    margin-bottom: 80px;
+  }
+
+  .bottom_nav_home {
+    max-width: 90%;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 60px;
+  }
+
+  .mealmate_project_selection_2 {
+    max-width: 90%;
+    margin-bottom: 80px;
+  }
+
+  .get_in_touch {
+    font-family: 'Avenirltstd roman', sans-serif;
+  }
+
+  .mealmate_heading {
+    margin-top: 35%;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 24px;
+  }
+
+  .art_gallery_heading {
+    margin-top: 35%;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 24px;
+  }
+
+  .iayss_heading {
+    margin-top: 38%;
+    font-size: 24px;
+  }
+
+  .rizee_heading {
+    margin-top: 38%;
+    font-size: 24px;
+  }
+
+  .iayss_heading_v02 {
+    margin-top: 38%;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 24px;
+  }
+
+  .rizee_heading_v02 {
+    margin-top: 38%;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 24px;
+  }
+
+  .hello {
+    max-width: 90%;
+  }
+
+  .about_me {
+    max-width: 90%;
+    margin-top: 40px;
+  }
+
+  .about_borderline {
+    max-width: 90%;
+  }
+
+  .about_border {
+    border-bottom-width: 1px;
+  }
+
+  .grid-5 {
+    grid-column-gap: 0px;
+    grid-row-gap: 40px;
+    -ms-grid-columns: 3fr 1fr;
+    grid-template-columns: 3fr 1fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+  }
+
+  .quick_intro {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .social_media {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .reach_out {
+    margin-top: 0px;
+    margin-bottom: 40px;
+    font-size: 28px;
+    line-height: 50px;
+  }
+
+  .my_inspiration {
+    max-width: 90%;
+  }
+
+  .project_details {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .rizee_intro {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+  }
+
+  .mealmate_intro_paragraph {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+  }
+
+  .quick_info_interviews {
+    margin-bottom: 20px;
+    font-size: 12px;
+  }
+
+  .quick_info_anlysis {
+    margin-bottom: 20px;
+    font-size: 12px;
+  }
+
+  .evaluation_info {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .usability_info {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .approach_info {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+  }
+
+  .instagram {
+    margin-right: 30px;
+  }
+
+  .linked_in {
+    margin-right: 30px;
+  }
+
+  .artstation {
+    margin-right: 30px;
+  }
+
+  .contact_me {
+    max-width: 90%;
+    padding-bottom: 60px;
+    text-align: left;
+  }
+
+  .email {
+    max-width: 100%;
+    margin-bottom: 100px;
+    text-align: center;
+  }
+
+  .inspiration {
+    margin-top: 0px;
+    margin-bottom: 40px;
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .dieter_rams_design {
+    display: inline-block;
+  }
+
+  .fb_technology {
+    display: inline-block;
+  }
+
+  .quick_info_art_gallery {
+    margin-bottom: 40px;
+    font-size: 12px;
+  }
+
+  .social-media {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .my-role {
+    margin-bottom: 20px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+}
+
+#w-node-dc80a5a1-618c-4d61-524c-0dabc7d56763-ef325a13 {
+  -ms-grid-column-align: center;
+  justify-self: center;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 2;
+  grid-column-start: span 2;
+  -ms-grid-column-span: 2;
+  grid-column-end: span 2;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+#w-node-dc80a5a1-618c-4d61-524c-0dabc7d56767-ef325a13 {
+  -ms-grid-column-align: end;
+  justify-self: end;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+#w-node-dc80a5a1-618c-4d61-524c-0dabc7d5676b-ef325a13 {
+  -ms-grid-column-align: start;
+  justify-self: start;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+}
+
+#w-node-dc80a5a1-618c-4d61-524c-0dabc7d5676f-ef325a13 {
+  -ms-grid-column-align: center;
+  justify-self: center;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 2;
+  grid-column-start: span 2;
+  -ms-grid-column-span: 2;
+  grid-column-end: span 2;
+  -ms-grid-row-align: start;
+  align-self: start;
+}
+
+#w-node-_5a97b04f-feae-aa69-c0df-15fb6b0fc049-f32cb0b3 {
+  -ms-grid-column-align: center;
+  justify-self: center;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 2;
+  grid-column-start: span 2;
+  -ms-grid-column-span: 2;
+  grid-column-end: span 2;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+#w-node-d0203525-0b6b-1e40-b53f-301bf427515e-f32cb0b3 {
+  -ms-grid-column-align: end;
+  justify-self: end;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+#w-node-_3eff053c-85f4-e09d-18a2-8255c27e4884-f32cb0b3 {
+  -ms-grid-column-align: start;
+  justify-self: start;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+}
+
+#w-node-_636ec5b8-b8e8-9b79-207f-6cf02a9c0814-f32cb0b3 {
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 2;
+  grid-column-start: span 2;
+  -ms-grid-column-span: 2;
+  grid-column-end: span 2;
+  -ms-grid-column-align: center;
+  justify-self: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+#w-node-_5a97b04f-feae-aa69-c0df-15fb6b0fc049-c7e9b3e6 {
+  -ms-grid-column-align: center;
+  justify-self: center;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 2;
+  grid-column-start: span 2;
+  -ms-grid-column-span: 2;
+  grid-column-end: span 2;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+#w-node-d0203525-0b6b-1e40-b53f-301bf427515e-c7e9b3e6 {
+  -ms-grid-column-align: end;
+  justify-self: end;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+#w-node-_3eff053c-85f4-e09d-18a2-8255c27e4884-c7e9b3e6 {
+  -ms-grid-column-align: start;
+  justify-self: start;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+}
+
+#w-node-_636ec5b8-b8e8-9b79-207f-6cf02a9c0814-c7e9b3e6 {
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 2;
+  grid-column-start: span 2;
+  -ms-grid-column-span: 2;
+  grid-column-end: span 2;
+  -ms-grid-column-align: center;
+  justify-self: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+#w-node-_5a97b04f-feae-aa69-c0df-15fb6b0fc049-730781cd {
+  -ms-grid-column-align: center;
+  justify-self: center;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 2;
+  grid-column-start: span 2;
+  -ms-grid-column-span: 2;
+  grid-column-end: span 2;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+#w-node-d0203525-0b6b-1e40-b53f-301bf427515e-730781cd {
+  -ms-grid-column-align: end;
+  justify-self: end;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+#w-node-_3eff053c-85f4-e09d-18a2-8255c27e4884-730781cd {
+  -ms-grid-column-align: start;
+  justify-self: start;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+}
+
+#w-node-_636ec5b8-b8e8-9b79-207f-6cf02a9c0814-730781cd {
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 2;
+  grid-column-start: span 2;
+  -ms-grid-column-span: 2;
+  grid-column-end: span 2;
+  -ms-grid-column-align: center;
+  justify-self: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+#w-node-f02bac7e-6468-03ce-a4f9-3099ee8786c6-28d3859d {
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+}
+
+@media screen and (min-width: 1920px) {
+  #w-node-dc80a5a1-618c-4d61-524c-0dabc7d56763-ef325a13 {
+    -webkit-align-self: end;
+    -ms-flex-item-align: end;
+    -ms-grid-row-align: end;
+    align-self: end;
+  }
+
+  #w-node-dc80a5a1-618c-4d61-524c-0dabc7d56767-ef325a13 {
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    -ms-grid-row-align: auto;
+    align-self: auto;
+  }
+
+  #w-node-dc80a5a1-618c-4d61-524c-0dabc7d5676f-ef325a13 {
+    -ms-grid-column-align: center;
+    justify-self: center;
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 2;
+    grid-column-start: span 2;
+    -ms-grid-column-span: 2;
+    grid-column-end: span 2;
+    -ms-grid-row-align: start;
+    align-self: start;
+  }
+
+  #w-node-f02bac7e-6468-03ce-a4f9-3099ee8786c6-28d3859d {
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 1;
+    grid-column-start: span 1;
+    -ms-grid-column-span: 1;
+    grid-column-end: span 1;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  #w-node-dc80a5a1-618c-4d61-524c-0dabc7d5676f-ef325a13 {
+    -ms-grid-column-align: center;
+    justify-self: center;
+    -ms-grid-row: span 2;
+    grid-row-start: span 2;
+    -ms-grid-row-span: 2;
+    grid-row-end: span 2;
+    -ms-grid-column: span 2;
+    grid-column-start: span 2;
+    -ms-grid-column-span: 2;
+    grid-column-end: span 2;
+    -ms-grid-row-align: start;
+    align-self: start;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  #w-node-dc80a5a1-618c-4d61-524c-0dabc7d5676f-ef325a13 {
+    -ms-grid-column-align: center;
+    justify-self: center;
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 2;
+    grid-column-start: span 2;
+    -ms-grid-column-span: 2;
+    grid-column-end: span 2;
+    -ms-grid-row-align: start;
+    align-self: start;
+  }
+
+  #w-node-_5bf4529e-c499-ecfb-036a-ef615e34655a-28d3859d {
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 1;
+    grid-column-start: span 1;
+    -ms-grid-column-span: 1;
+    grid-column-end: span 1;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  #w-node-dc80a5a1-618c-4d61-524c-0dabc7d56767-ef325a13 {
+    -ms-grid-column-align: end;
+    justify-self: end;
+  }
+
+  #w-node-dc80a5a1-618c-4d61-524c-0dabc7d5676b-ef325a13 {
+    -ms-grid-column-align: start;
+    justify-self: start;
+  }
+
+  #w-node-dc80a5a1-618c-4d61-524c-0dabc7d5676f-ef325a13 {
+    -ms-grid-column-align: center;
+    justify-self: center;
+    -webkit-align-self: start;
+    -ms-flex-item-align: start;
+    -ms-grid-row-align: start;
+    align-self: start;
+  }
+
+  #w-node-d0203525-0b6b-1e40-b53f-301bf427515e-f32cb0b3 {
+    -ms-grid-column-align: end;
+    justify-self: end;
+  }
+
+  #w-node-_3eff053c-85f4-e09d-18a2-8255c27e4884-f32cb0b3 {
+    -ms-grid-column-align: start;
+    justify-self: start;
+  }
+
+  #w-node-d0203525-0b6b-1e40-b53f-301bf427515e-c7e9b3e6 {
+    -ms-grid-column-align: end;
+    justify-self: end;
+  }
+
+  #w-node-_3eff053c-85f4-e09d-18a2-8255c27e4884-c7e9b3e6 {
+    -ms-grid-column-align: start;
+    justify-self: start;
+  }
+
+  #w-node-d0203525-0b6b-1e40-b53f-301bf427515e-730781cd {
+    -ms-grid-column-align: end;
+    justify-self: end;
+  }
+
+  #w-node-_3eff053c-85f4-e09d-18a2-8255c27e4884-730781cd {
+    -ms-grid-column-align: start;
+    justify-self: start;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #w-node-dc80a5a1-618c-4d61-524c-0dabc7d56767-ef325a13 {
+    -ms-grid-column-align: center;
+    justify-self: center;
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 2;
+    grid-column-start: span 2;
+    -ms-grid-column-span: 2;
+    grid-column-end: span 2;
+    -ms-grid-row-align: center;
+    align-self: center;
+  }
+
+  #w-node-dc80a5a1-618c-4d61-524c-0dabc7d5676b-ef325a13 {
+    -ms-grid-column-align: center;
+    justify-self: center;
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 2;
+    grid-column-start: span 2;
+    -ms-grid-column-span: 2;
+    grid-column-end: span 2;
+    -ms-grid-row-align: center;
+    align-self: center;
+  }
+
+  #w-node-dc80a5a1-618c-4d61-524c-0dabc7d5676f-ef325a13 {
+    -ms-grid-column-align: center;
+    justify-self: center;
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 2;
+    grid-column-start: span 2;
+    -ms-grid-column-span: 2;
+    grid-column-end: span 2;
+    -ms-grid-row-align: center;
+    align-self: center;
+  }
+
+  #w-node-d0203525-0b6b-1e40-b53f-301bf427515e-f32cb0b3 {
+    -ms-grid-column-align: center;
+    justify-self: center;
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 2;
+    grid-column-start: span 2;
+    -ms-grid-column-span: 2;
+    grid-column-end: span 2;
+    -ms-grid-row-align: center;
+    align-self: center;
+  }
+
+  #w-node-_3eff053c-85f4-e09d-18a2-8255c27e4884-f32cb0b3 {
+    -ms-grid-column-align: center;
+    justify-self: center;
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 2;
+    grid-column-start: span 2;
+    -ms-grid-column-span: 2;
+    grid-column-end: span 2;
+  }
+
+  #w-node-d0203525-0b6b-1e40-b53f-301bf427515e-c7e9b3e6 {
+    -ms-grid-column-align: center;
+    justify-self: center;
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 2;
+    grid-column-start: span 2;
+    -ms-grid-column-span: 2;
+    grid-column-end: span 2;
+    -ms-grid-row-align: center;
+    align-self: center;
+  }
+
+  #w-node-_3eff053c-85f4-e09d-18a2-8255c27e4884-c7e9b3e6 {
+    -ms-grid-column-align: center;
+    justify-self: center;
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 2;
+    grid-column-start: span 2;
+    -ms-grid-column-span: 2;
+    grid-column-end: span 2;
+  }
+
+  #w-node-d0203525-0b6b-1e40-b53f-301bf427515e-730781cd {
+    -ms-grid-column-align: center;
+    justify-self: center;
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 2;
+    grid-column-start: span 2;
+    -ms-grid-column-span: 2;
+    grid-column-end: span 2;
+    -ms-grid-row-align: center;
+    align-self: center;
+  }
+
+  #w-node-_3eff053c-85f4-e09d-18a2-8255c27e4884-730781cd {
+    -ms-grid-column-align: center;
+    justify-self: center;
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 2;
+    grid-column-start: span 2;
+    -ms-grid-column-span: 2;
+    grid-column-end: span 2;
+  }
+
+  #w-node-_5bf4529e-c499-ecfb-036a-ef615e34655a-28d3859d {
+    -ms-grid-row: span 2;
+    grid-row-start: span 2;
+    -ms-grid-row-span: 2;
+    grid-row-end: span 2;
+    -ms-grid-column: span 2;
+    grid-column-start: span 2;
+    -ms-grid-column-span: 2;
+    grid-column-end: span 2;
+  }
+
+  #w-node-_2ff8c788-6fcb-8f77-117c-4d592908d66c-28d3859d {
+    -ms-grid-row: span 2;
+    grid-row-start: span 2;
+    -ms-grid-row-span: 2;
+    grid-row-end: span 2;
+    -ms-grid-column: span 2;
+    grid-column-start: span 2;
+    -ms-grid-column-span: 2;
+    grid-column-end: span 2;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  #w-node-dc80a5a1-618c-4d61-524c-0dabc7d56763-ef325a13 {
+    -ms-grid-column-align: center;
+    justify-self: center;
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 3;
+    grid-column-start: span 3;
+    -ms-grid-column-span: 3;
+    grid-column-end: span 3;
+    -ms-grid-row-align: center;
+    align-self: center;
+  }
+
+  #w-node-dc80a5a1-618c-4d61-524c-0dabc7d56767-ef325a13 {
+    -ms-grid-column-align: center;
+    justify-self: center;
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 3;
+    grid-column-start: span 3;
+    -ms-grid-column-span: 3;
+    grid-column-end: span 3;
+    -ms-grid-row-align: center;
+    align-self: center;
+  }
+
+  #w-node-dc80a5a1-618c-4d61-524c-0dabc7d5676b-ef325a13 {
+    -ms-grid-column-align: center;
+    justify-self: center;
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 3;
+    grid-column-start: span 3;
+    -ms-grid-column-span: 3;
+    grid-column-end: span 3;
+    -ms-grid-row-align: center;
+    align-self: center;
+  }
+
+  #w-node-dc80a5a1-618c-4d61-524c-0dabc7d5676f-ef325a13 {
+    -ms-grid-column-align: center;
+    justify-self: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    -ms-grid-column: span 3;
+    grid-column-start: span 3;
+    -ms-grid-column-span: 3;
+    grid-column-end: span 3;
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+  }
+
+  #w-node-_5a97b04f-feae-aa69-c0df-15fb6b0fc049-f32cb0b3 {
+    -ms-grid-column-align: center;
+    justify-self: center;
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 3;
+    grid-column-start: span 3;
+    -ms-grid-column-span: 3;
+    grid-column-end: span 3;
+    -ms-grid-row-align: center;
+    align-self: center;
+  }
+
+  #w-node-d0203525-0b6b-1e40-b53f-301bf427515e-f32cb0b3 {
+    -ms-grid-column-align: center;
+    justify-self: center;
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 3;
+    grid-column-start: span 3;
+    -ms-grid-column-span: 3;
+    grid-column-end: span 3;
+    -ms-grid-row-align: center;
+    align-self: center;
+  }
+
+  #w-node-_3eff053c-85f4-e09d-18a2-8255c27e4884-f32cb0b3 {
+    -ms-grid-column-align: center;
+    justify-self: center;
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 3;
+    grid-column-start: span 3;
+    -ms-grid-column-span: 3;
+    grid-column-end: span 3;
+  }
+
+  #w-node-_636ec5b8-b8e8-9b79-207f-6cf02a9c0814-f32cb0b3 {
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 3;
+    grid-column-start: span 3;
+    -ms-grid-column-span: 3;
+    grid-column-end: span 3;
+    -ms-grid-column-align: center;
+    justify-self: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+  }
+
+  #w-node-_5a97b04f-feae-aa69-c0df-15fb6b0fc049-c7e9b3e6 {
+    -ms-grid-column-align: center;
+    justify-self: center;
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 3;
+    grid-column-start: span 3;
+    -ms-grid-column-span: 3;
+    grid-column-end: span 3;
+    -ms-grid-row-align: center;
+    align-self: center;
+  }
+
+  #w-node-d0203525-0b6b-1e40-b53f-301bf427515e-c7e9b3e6 {
+    -ms-grid-column-align: center;
+    justify-self: center;
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 3;
+    grid-column-start: span 3;
+    -ms-grid-column-span: 3;
+    grid-column-end: span 3;
+    -ms-grid-row-align: center;
+    align-self: center;
+  }
+
+  #w-node-_3eff053c-85f4-e09d-18a2-8255c27e4884-c7e9b3e6 {
+    -ms-grid-column-align: center;
+    justify-self: center;
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 3;
+    grid-column-start: span 3;
+    -ms-grid-column-span: 3;
+    grid-column-end: span 3;
+  }
+
+  #w-node-_636ec5b8-b8e8-9b79-207f-6cf02a9c0814-c7e9b3e6 {
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 3;
+    grid-column-start: span 3;
+    -ms-grid-column-span: 3;
+    grid-column-end: span 3;
+    -ms-grid-column-align: center;
+    justify-self: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+  }
+
+  #w-node-_5a97b04f-feae-aa69-c0df-15fb6b0fc049-730781cd {
+    -ms-grid-column-align: center;
+    justify-self: center;
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 3;
+    grid-column-start: span 3;
+    -ms-grid-column-span: 3;
+    grid-column-end: span 3;
+    -ms-grid-row-align: center;
+    align-self: center;
+  }
+
+  #w-node-d0203525-0b6b-1e40-b53f-301bf427515e-730781cd {
+    -ms-grid-column-align: center;
+    justify-self: center;
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 3;
+    grid-column-start: span 3;
+    -ms-grid-column-span: 3;
+    grid-column-end: span 3;
+    -ms-grid-row-align: center;
+    align-self: center;
+  }
+
+  #w-node-_3eff053c-85f4-e09d-18a2-8255c27e4884-730781cd {
+    -ms-grid-column-align: center;
+    justify-self: center;
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 3;
+    grid-column-start: span 3;
+    -ms-grid-column-span: 3;
+    grid-column-end: span 3;
+  }
+
+  #w-node-_636ec5b8-b8e8-9b79-207f-6cf02a9c0814-730781cd {
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 3;
+    grid-column-start: span 3;
+    -ms-grid-column-span: 3;
+    grid-column-end: span 3;
+    -ms-grid-column-align: center;
+    justify-self: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+  }
+
+  #w-node-_5bf4529e-c499-ecfb-036a-ef615e34655a-28d3859d {
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 2;
+    grid-column-start: span 2;
+    -ms-grid-column-span: 2;
+    grid-column-end: span 2;
+  }
+
+  #w-node-_2ff8c788-6fcb-8f77-117c-4d592908d66c-28d3859d {
+    -ms-grid-row: span 2;
+    grid-row-start: span 2;
+    -ms-grid-row-span: 2;
+    grid-row-end: span 2;
+    -ms-grid-column: span 2;
+    grid-column-start: span 2;
+    -ms-grid-column-span: 2;
+    grid-column-end: span 2;
+  }
+}
+
+@font-face {
+  font-family: 'Fa 400';
+  src: url('../fonts/fa-regular-400.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Fa brands 400';
+  src: url('../fonts/fa-brands-400.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Fa solid 900';
+  src: url('../fonts/fa-solid-900.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Avenirltstd roman';
+  src: url('../fonts/AvenirLTStd-Roman.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Avenirltstd';
+  src: url('../fonts/AvenirLTStd-Black.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Avenirltstd book';
+  src: url('../fonts/AvenirLTStd-Book.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
